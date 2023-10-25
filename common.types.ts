@@ -4,7 +4,7 @@ export type FormState = {
     title: string;
     description: string;
     image: string;
-    liverSiteUrl: string;
+    liveSiteUrl: string;
     githubUrl: string;
     category: string;
 };
@@ -13,7 +13,7 @@ export interface ProjectInterface {
     title: string;
     description: string;
     image: string;
-    liverSiteUrl: string;
+    liveSiteUrl: string;
     githubUrl: string;
     category: string;
     id: string;
@@ -25,7 +25,7 @@ export interface ProjectInterface {
     };
 }
 
-export interface UserInterface {
+export interface UserProfile {
     id: string;
     name: string;
     email: string;
