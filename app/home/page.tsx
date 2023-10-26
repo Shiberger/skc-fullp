@@ -1,5 +1,5 @@
 import React from "react";
-import Hero from "./hero";
+import H
 function page() {
   return (
     <div>
