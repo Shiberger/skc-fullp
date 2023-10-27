@@ -26,26 +26,21 @@ function Hero() {
           </div>
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
             <iframe
+              className="object-cover object-center rounded-lg"
               src="https://my.spline.design/purple3diconscopy-d48ce58b2d9c452093cfffca390cc377/"
               frameBorder={0}
               width="100%"
-              height="100%"
+              height="300"
             />
           </div>
-          <iframe
-            src="https://my.spline.design/purple3diconscopy-d48ce58b2d9c452093cfffca390cc377/"
-            frameBorder={0}
-            width="100%"
-            height="100%"
-          />
 
-          <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+          {/* <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
             <img
               className="object-cover object-center rounded"
               alt="hero"
               src="https://dummyimage.com/720x600"
             />
-          </div>
+          </div> */}
         </div>
       </section>
     </div>
