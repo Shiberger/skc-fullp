@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import Script from "next/script";
 
 function Map() {
   return (
@@ -98,6 +99,13 @@ function Map() {
             </p>
           </div>
         </div>
+        <Script 
+        type="module"
+        src="">
+          <script src=""></script>
+        </Script>
+       <iframe src="https://my.spline.design/purple3diconscopy-d48ce58b2d9c452093cfffca390cc377/" frameBorder={0} width="100%" height="100%" />
+
       </section>
     </>
   );
