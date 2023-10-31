@@ -24,7 +24,8 @@ const Navbar = async () => {
         </Link>
         <ul className='xl:flex hidden text-small gap-7'>
           {NavLinks.map((link) => (
-            <Link href={link.href} key={link.text}>
+            
+            <Link href={link.href} key={link.text} className="text-black hover:text-purple-500 focus:text-purple-300"> 
               {link.text}
             </Link>
           ))}
@@ -44,6 +45,9 @@ const Navbar = async () => {
           <AuthProviders />
         )}
       </div>
+
+
+
     </nav>
   );
 };
