@@ -17,6 +17,8 @@ const Button = ({ title, leftIcon, rightIcon, handleClick, submitting, type, bgC
         type={type || 'button'}
         disabled={submitting || false}
         className={`flexCenter gap-3 px-4 py-3 
+        className="rounded-md bg-gradient-to-br from-primary-purple to-purple-400 px-3 py-1.5 font-dm text-sm font-medium text-white shadow-md shadow-perple-400/50 transition-transform duration-200 ease-in-out hover:scale-[1.03]
+        
         ${textColor ? textColor : 'text-white'} 
         ${submitting ? 'bg-black/50' : bgColor ? bgColor : 'bg-primary-purple'} rounded-xl text-sm font-medium max-md:w-full`}
         onClick={handleClick}
