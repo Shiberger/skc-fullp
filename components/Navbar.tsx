@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
+
 import { NavLinks } from "@/constants";
 import { getCurrentUser } from "@/lib/session";
 
@@ -53,7 +54,15 @@ const Navbar = async () => {
   <nav className="mx-auto flex max-w-6xl gap-8 px-6 transition-all duration-200 ease-in-out lg:px-1 py-4">
     <div className="relative flex items-center">
       <a href="/">
-        <img src="https://www.svgrepo.com/show/499831/target.svg" loading="lazy" style={{color: 'transparent'}} width={32} height={32} /></a>
+      <Image src="/logoSS.svg" loading="lazy" style={{color: 'transparent'}} width={50} height={45}/>
+        
+
+
+        {/* <img src="https://www.svgrepo.com/show/499831/target.svg" loading="lazy" style={{color: 'transparent'}} width={32} height={32} /> */}
+      </a>
+      {/* <div className="font-bold  hover:text-primary-purple">Skillsync</div> */}
+      <Image src="/logo-purple.svg" loading="lazy" style={{color: 'transparent'}} width={80} height={80}/>
+
     </div>
     <ul className="hidden items-center justify-center gap-6 md:flex">
       <li className="pt-1.5 font-dm text-sm font-medium text-slate-700">

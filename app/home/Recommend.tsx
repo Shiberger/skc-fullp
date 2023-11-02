@@ -138,10 +138,7 @@ function Recommend() {
     {/*   🛑 Product card 6 - Ends Here  */}
   </section>
   {/* 🛑 Grid Section - Ends Here */}
-  {/* credit */}
-  <div className="text-center py-10 px-10">
-    <h2 className="font-bold text-2xl md:text-4xl mb-4">Thanks to <a href="https://unsplash.com/@nixcreative" className="underline font-black">Tyler Nix</a> for those AMAZING product images!</h2>
-  </div>
+
 </div>
 
     </div>
