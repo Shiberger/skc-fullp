@@ -51,7 +51,7 @@ const Navbar = async () => {
 
     // </nav>
  <header className="sticky inset-0 z-50 border-b border-slate-100 bg-white/80 backdrop-blur-lg">
-  <nav className="mx-auto flex max-w-6xl gap-8 px-6 transition-all duration-200 ease-in-out lg:px-1 py-4">
+  <nav className="mx-auto flex max-w-6xl gap-8 px-6 transition-all duration-200 ease-in-out lg:px-1 py-3">
     <div className="relative flex items-center">
       <a href="/">
       <Image src="/logoSS.svg" loading="lazy" style={{color: 'transparent'}} width={50} height={45}/>
@@ -61,7 +61,7 @@ const Navbar = async () => {
         {/* <img src="https://www.svgrepo.com/show/499831/target.svg" loading="lazy" style={{color: 'transparent'}} width={32} height={32} /> */}
       </a>
       {/* <div className="font-bold  hover:text-primary-purple">Skillsync</div> */}
-      <Image src="/logo-purple.svg" loading="lazy" style={{color: 'transparent'}} width={80} height={80}/>
+      <Image src={"/logo-purple.svg"} loading="lazy" style={{color: 'transparent'}} width={80} height={80}/>
 
     </div>
     <ul className="hidden items-center justify-center gap-6 md:flex">
