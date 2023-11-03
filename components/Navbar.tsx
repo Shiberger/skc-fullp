@@ -54,7 +54,7 @@ const Navbar = async () => {
   <nav className="mx-auto flex max-w-6xl gap-8 px-6 transition-all duration-200 ease-in-out lg:px-1 py-3">
     <div className="relative flex items-center">
       <a href="/">
-      <Image src="/logoSS.svg" loading="lazy" style={{color: 'transparent'}} width={50} height={45}/>
+      <Image src="/logoSS.svg" loading="lazy" style={{color: 'transparent'}} width={50} height={45} className="hover:"/>
         
 
 
