@@ -26,7 +26,7 @@ const Button = ({
     type={type || "button"}
     disabled={submitting || false}
     className={`flexCenter gap-3 px-4 py-3 
-        className="rounded-md bg-gradient-to-br from-primary-purple to-purple-400 px-3 py-1.5 font-dm text-sm font-medium text-white shadow-md shadow-perple-400/50 transition-transform duration-200 ease-in-out hover:scale-[1.03]
+        className="rounded-md bg-gradient-to-br from-primary-purple to-purple-400 font-dm text-sm font-medium text-white shadow-md shadow-perple-400/50 transition-transform duration-200 ease-in-out hover:scale-[1.03]
         
         ${textColor ? textColor : "text-white"} 
         ${

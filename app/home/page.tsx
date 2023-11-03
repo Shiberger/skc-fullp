@@ -6,7 +6,7 @@ import type { Metadata } from 'next'
  
 export const metadata: Metadata = {
   title: 'Home | Skillsync',
-  description: '...',
+  description: 'Home | Skillsync',
 }
  
 

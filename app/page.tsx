@@ -4,6 +4,13 @@ import LoadMore from "@/components/LoadMore";
 import ProjectCard from "@/components/ProjectCard";
 import { fetchAllProjects } from "@/lib/actions";
 
+import type { Metadata } from 'next'
+ 
+export const metadata: Metadata = {
+  title: 'Projects | Skillsync',
+  description: 'Home | Skillsync',
+}
+
 type SearchParams = {
     category?: string | null;
     endcursor?: string | null;

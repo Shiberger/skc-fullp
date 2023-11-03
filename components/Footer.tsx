@@ -33,6 +33,7 @@ const Footer = () => (
               style={{ color: "transparent" }}
               width={50}
               height={45}
+              alt=""
             />
 
           </a>
@@ -42,6 +43,7 @@ const Footer = () => (
             style={{ color: "transparent" }}
             width={100}
             height={100}
+            alt=""
           />
         </div>
 
