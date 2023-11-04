@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import Button from "@/components/Button";
 
 function NotFound() {
   return (
@@ -16,10 +17,12 @@ function NotFound() {
                   Sorry about that! Please visit our hompage to get where you
                   need to go.
                 </p>
-                <Link href={"/"}>
-                  <button className="sm:w-full lg:w-auto my-2 border rounded md py-4 px-8 text-center bg-indigo-600 text-white hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-700 focus:ring-opacity-50">
+                <Link href={"/home"}>
+                  <button className="sm:w-full lg:w-auto my-2 rounded-md py-4 px-8 text-center bg-gradient-to-br from-primary-purple to-purple-400 font-dm text-sm font-medium text-white shadow-md shadow-perple-400/50 transition-transform duration-200 ease-in-out hover:scale-[1.03]">
                     Back Home
                   </button>
+         
+                  
                 </Link>
               </div>
             </div>

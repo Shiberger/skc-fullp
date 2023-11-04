@@ -16,7 +16,7 @@ const Navbar = async () => {
     <header className="sticky inset-0 z-50 border-b border-slate-100 bg-white/80 backdrop-blur-lg">
       <nav className="mx-auto flex max-w-6xl gap-8 px-6 transition-all duration-200 ease-in-out lg:px-1 py-3">
         <div className="relative flex items-center">
-          <a href="/">
+          <Link href="/">
             <Image
               src="/logoSS.svg"
               loading="lazy"
@@ -27,7 +27,7 @@ const Navbar = async () => {
               alt="aa"
             />
 
-          </a>
+          </Link>
           {/* <div className="font-bold  hover:text-primary-purple">Skillsync</div> */}
           <Image
             src={"/logo-purple.svg"}

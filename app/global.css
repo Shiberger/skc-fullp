@@ -12,8 +12,13 @@
     font-family: Prompt;
 }
 
+
 body {
     font-family: Prompt;
+}
+
+.btnNav {
+    @apply transition-transform duration-200 ease-in-out hover:scale-[1.03]
 }
 
 .flexCenter {

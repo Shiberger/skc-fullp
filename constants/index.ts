@@ -1,6 +1,6 @@
 export const NavLinks = [
     { href: '/home', key: 'Home', text: 'Home'},
-    { href: '/', key: 'Inspiration', text: 'Inspiration' },
+    { href: '/', key: 'About Us', text: 'About Us' },
     { href: '/', key: 'Find Projects', text: 'Find Projects' },
     // { href: '/', key: 'Learn Development', text: 'Learn Development' },
     // { href: '/', key: 'Career Advancement', text: 'Career Advancement' },
