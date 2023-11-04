@@ -1,6 +1,7 @@
 import "./global.css";
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
+import Navbar3 from "@/components/Nav3";
 
 
 
@@ -14,6 +15,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <html lang='en'>
             <body>
                 <Navbar />
+                {/* <Navbar3/> */}
+
           
                 
                 
