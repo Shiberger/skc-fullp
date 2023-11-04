@@ -27,7 +27,6 @@ const Navbar = async () => {
               alt="aa"
             />
 
-            {/* <img src="https://www.svgrepo.com/show/499831/target.svg" loading="lazy" style={{color: 'transparent'}} width={32} height={32} /> */}
           </a>
           {/* <div className="font-bold  hover:text-primary-purple">Skillsync</div> */}
           <Image
