@@ -4,7 +4,7 @@ function Recommend() {
   return (
     <div>
 <div>
-  <div className="text-center p-10">
+  <div className="text-center p-10 mt-10">
     <h1 className="font-bold text-4xl mb-4">College of Social Communication Innovation</h1>
     <h1 className="text-3xl">Our Projects</h1>
   </div>

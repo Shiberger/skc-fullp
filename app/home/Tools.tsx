@@ -2,13 +2,13 @@ import React from "react";
 
 function Tools() {
   return (
-    <div className=" bg-purple-200" >
+    <div className="" >
       <section
         id="features"
-        className="container mx-auto px-4 space-y-6 py-8 dark:bg-transparent md:py-12 lg:py-20"
+        className="container mx-auto px-4 space-y-6 py-8 dark:bg-transparent md:pt-40 md:mt-10 lg:py-20"
       >
         <div className="mx-auto flex max-w-[58rem] flex-col items-center space-y-4 text-center ">
-          <h2 className="font-bold text-3xl leading-[1.1] sm:text-3xl md:text-6xl">
+          <h2 className="font-bold text-3xl leading-[1.1] sm:text-3xl md:text-3xl lg:text-6xl">
             Features
           </h2>
           <p className="max-w-[85%] leading-normal text-muted-foreground sm:text-lg sm:leading-7">

@@ -20,6 +20,7 @@ function page() {
     <div>
       {/* <Hero/> */}
       <HeroHome/>
+      {/* <Tools/> */}
       <Recommend/>
       <Tools/>
 
