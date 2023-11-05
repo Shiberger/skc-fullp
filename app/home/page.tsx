@@ -18,7 +18,7 @@ export const metadata: Metadata = {
 function page() {
   return (
     <div>
-      <Hero/>
+      {/* <Hero/> */}
       <HeroHome/>
       <Recommend/>
       <Tools/>
