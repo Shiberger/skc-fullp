@@ -26,25 +26,25 @@ const Footer = () => (
     <div className="flex flex-col gap-12 w-full">
       <div className="flex items-start flex-col">
         <div className="relative flex items-center">
-          <a href="/">
+        <Link href="/" className="flex btnNav">
             <Image
               src="/logoSS.svg"
               loading="lazy"
               style={{ color: "transparent" }}
               width={50}
               height={45}
-              alt=""
+              className="transition-transform duration-200 ease-in-out hover:scale-[1.3]"
+              alt="aa"
             />
+          </Link>
+          <Link
+            href={"/home"}
+            className="ms-1 pt-1 btnNav normal-case text-xl font-bold text-primary-purple"
+          >
+            Skillsync
+          </Link>
 
-          </a>
-          <Image
-            src="/logo-purple.svg"
-            loading="lazy"
-            style={{ color: "transparent" }}
-            width={100}
-            height={100}
-            alt=""
-          />
+        
         </div>
 
         <p className="text-start text-sm font-normal mt-5 max-w-xs">
