@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 function HeroHome() {
   return (
@@ -11,7 +12,7 @@ function HeroHome() {
           <img
             className="h-full w-full object-cover"
             src="/workplace1.jpg"
-            alt="Winding mountain road"
+            alt="workplace"
           />
         </div>
         {/* Close Image Column */}

@@ -5,8 +5,8 @@ function Recommend() {
     <div>
 <div>
   <div className="text-center p-10">
-    <h1 className="font-bold text-4xl mb-4">Responsive Product card grid</h1>
-    <h1 className="text-3xl">Tailwind CSS</h1>
+    <h1 className="font-bold text-4xl mb-4">College of Social Communication Innovation</h1>
+    <h1 className="text-3xl">Our Projects</h1>
   </div>
   {/* ✅ Grid Section - Starts Here 👇 */}
   <section id="Projects" className="w-fit mx-auto grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 justify-items-center justify-center gap-y-20 gap-x-14 mt-10 mb-5">
