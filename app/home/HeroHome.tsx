@@ -45,6 +45,27 @@ function HeroHome() {
         </div>
         {/* Close Text Column */}
       </div>
+      <div
+        className="dshero min-h-100vh"
+        style={{
+          backgroundImage:
+            "url(/gear.jpg)",
+            backgroundAttachment: "fixed",
+            backgroundPosition:"center"
+        }}
+      >
+        <div className="dshero-overlay bg-opacity-60 py-20 shadow-lg"></div>
+        <div className="dshero-content text-center text-neutral-content">
+          <div className="max-w-md lg:max-w-lg">
+            <h1 className="mb-5 text-3xl font-thin italic">"Empower Yourself, Impact Society: Continuously Upskill and Sync for Social Change"</h1>
+            {/* <p className="mb-2">
+              Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
+              excepturi exercitationem quasi. In deleniti eaque aut repudiandae
+              et a id nisi.
+            </p> */}
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
