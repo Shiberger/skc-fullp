@@ -5,6 +5,7 @@ import Recommend from "./Recommend";
 
 import Tools from "./Tools";
 import type { Metadata } from 'next'
+import Popular from "./Popular";
  
 export const metadata: Metadata = {
   title: 'Home | Skillsync',
@@ -21,6 +22,7 @@ function page() {
       {/* <Hero/> */}
       <HeroHome/>
       {/* <Tools/> */}
+      <Popular/>
       <Recommend/>
       <Tools/>
 
