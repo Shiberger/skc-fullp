@@ -4,11 +4,11 @@ import Image from "next/image";
 
 function HeroHome() {
   return (
-    <div className="mb-10">
+    <div className=" lg:bg-gradient-to-b from-white to-purple-200 sm:bg-white">
       {/* Container */}
-      <div className="relative flex flex-col items-center mx-auto lg:flex-row-reverse lg:max-w-5xl lg:mt-12 xl:max-w-6xl">
+      <div className="relative flex flex-col items-center mx-auto lg:flex-row-reverse lg:max-w-5xl lg:mt-12 xl:max-w-6xl md:mb-60 lg:mb-10 ">
         {/* Image Column */}
-        <div className="w-full h-64 lg:w-1/2 lg:h-auto">
+        <div className="w-full h-64 lg:w-1/2 lg:h-auto lg:mb-10">
           <img
             className="h-full w-full object-cover"
             src="/workplace1.jpg"
@@ -17,7 +17,7 @@ function HeroHome() {
         </div>
         {/* Close Image Column */}
         {/* Text Column */}
-        <div className="max-w-lg bg-gradient-to-br from-purple-200 to-white  md:max-w-2xl md:z-10 md:shadow-lg md:absolute md:top-0 md:mt-48 lg:w-3/5 lg:left-0 lg:mt-20 lg:ml-20 xl:mt-24 xl:ml-5 rounded-lg">
+        <div className="max-w-lg bg-gradient-to-br from-slate-100 to-white  md:max-w-2xl md:z-10 md:shadow-lg md:absolute md:top-0 md:mt-48 lg:w-3/5 lg:left-0 lg:mt-20 lg:ml-20 xl:mt-24 xl:ml-5 rounded-lg">
           {/* Text Wrapper */}
           <div className="flex flex-col p-12 md:px-16">
             <h2 className="text-2xl font-medium uppercase text-primary-purple lg:text-4xl">
