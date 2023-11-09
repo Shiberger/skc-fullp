@@ -1,6 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import Script from "next/script";
+import Button from "@/components/Button";
 
 function Map() {
   return (
@@ -59,7 +60,7 @@ function Map() {
                 type="text"
                 id="name"
                 name="name"
-                className="w-full bg-white rounded border border-gray-300 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                className="w-full bg-white rounded border border-slate-300 focus:border-black focus:ring-2 focus:ring-slate-300 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
               />
             </div>
             <div className="relative mb-4">
@@ -73,7 +74,7 @@ function Map() {
                 type="email"
                 id="email"
                 name="email"
-                className="w-full bg-white rounded border border-gray-300 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                className="w-full bg-white rounded border  border-slate-300 focus:border-black-500 focus:ring-2 focus:ring-slate-300 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
               />
             </div>
             <div className="relative mb-4">
@@ -86,16 +87,14 @@ function Map() {
               <textarea
                 id="message"
                 name="message"
-                className="w-full bg-white rounded border border-gray-300 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
+                className="w-full bg-white rounded border border-slate-300 focus:border-black-500 focus:ring-2 focus:ring-slate-300 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
                 defaultValue={""}
               />
             </div>
-            <button className="text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded text-lg">
-              Send
-            </button>
-            <p className="text-xs text-gray-500 mt-3">
-              Chicharrones blog helvetica normcore iceland tousled brook viral
-              artisan.
+          
+            <Button title="Send"/>
+            <p className="text-xs text-slate-500 mt-3">
+             ขอขอบคุณที่พูดคุยกับเรา
             </p>
           </div>
         </div>
