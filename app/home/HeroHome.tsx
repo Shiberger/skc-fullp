@@ -1,10 +1,14 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
+import Script from "next/script";
+
+
 
 function HeroHome() {
   return (
-    <div className=" lg:bg-gradient-to-b from-white to-purple-200 sm:bg-white">
+    <div className=" lg:bg-gradient-to-b from-white to-purple-200 sm:bg-white" >
+      
       {/* Container */}
       <div className="relative flex flex-col items-center mx-auto lg:flex-row-reverse lg:max-w-5xl lg:mt-12 xl:max-w-6xl md:mb-60 lg:mb-10 ">
         {/* Image Column */}

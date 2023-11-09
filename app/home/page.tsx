@@ -2,8 +2,11 @@ import React from "react";
 import Hero from "./Hero";
 import HeroHome from "./HeroHome";
 import Recommend from "./Recommend";
+import FadeInComponent from "./FAQ";
+
 
 import Tools from "./Tools";
+
 import type { Metadata } from 'next'
 import Popular from "./Popular";
  
@@ -25,6 +28,8 @@ function page() {
       <Popular/>
       <Recommend/>
       <Tools/>
+    
+
 
 
     </div>
