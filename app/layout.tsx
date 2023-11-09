@@ -28,7 +28,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                     {children}
                 </main>
                 <Footer2/>
-                {/* <Footer /> */}
+                <Footer />
             </body>
         </html>
     );

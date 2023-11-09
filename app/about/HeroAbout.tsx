@@ -14,13 +14,11 @@ function HeroAbout() {
       >
         <div className="dshero-overlay bg-opacity-60 py-20"></div>
         <div className="dshero-content text-center text-neutral-content">
-          <div className="max-w-md">
-            <h1 className="mb-5 text-5xl font-bold">About Us</h1>
-            <p className="mb-5">
-              Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
-              excepturi exercitationem quasi. In deleniti eaque aut repudiandae
-              et a id nisi.
-            </p>
+          <div className="max-w-md my-10">
+            <h1 className="mb-5  text-5xl font-bold">About Us</h1>
+            {/* <p className="mb-5">
+          Learn more about us
+            </p> */}
             {/* <button className="dsbtn dsbtn-primary">Get Started</button> */}
           </div>
         </div>

@@ -1,19 +1,19 @@
-import React from 'react'
-import Map from './Map'
-import type { Metadata } from 'next'
- 
+import React from "react";
+import Map from "./Map";
+import type { Metadata } from "next";
+import OurDev from "./OurDev";
+
 export const metadata: Metadata = {
-  title: 'Contact | Skillsync',
-  description: 'Home | Skillsync',
-}
+  title: "Contact | Skillsync",
+  description: "Home | Skillsync",
+};
 function page() {
   return (
     <div>
-        <Map/>
-
+      <OurDev />
+      <Map />
     </div>
-
-  )
+  );
 }
 
-export default page
+export default page;

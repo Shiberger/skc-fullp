@@ -1,80 +1,56 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
+import { footerLinks } from "@/constants";
+
+type ColumnProps = {
+  title: string;
+  links: Array<string>;
+};
+
+const FooterColumn = ({ title, links }: ColumnProps) => (
+  <div className="footer_column">
+    <h4 className="font-semibold">{title}</h4>
+    <ul className="flex flex-col gap-2 font-normal">
+      {links.map((link) => (
+        <Link href="/" key={link} className="hover:text-primary-purple">
+          {link}
+        </Link>
+      ))}
+    </ul>
+  </div>
+);
 
 function Footer2() {
   return (
     <div>
       <footer>
-        <div className="bg-slate-200 py-4 text-gray-400">
+        <div className="bg-white border-t border-slate-100 py-4 text-gray-400 shadow-md">
           <div className="container px-4 mx-auto">
             <div className="-mx-4 flex flex-wrap justify-between">
               <div className="px-4 my-4 w-full xl:w-1/5">
-              <div className="relative flex items-center">
-        <Link href="/" className="flex btnNav">
-            <Image
-              src="/logoSS.svg"
-              loading="lazy"
-              style={{ color: "transparent" }}
-              width={60}
-              height={50}
-              className="transition-transform duration-200 ease-in-out hover:scale-[1.3]"
-              alt="aa"
-            />
-          </Link>
-          <Link
-            href={"/home"}
-            className="ms-1 pt-1 btnNav normal-case text-2xl font-bold text-primary-purple"
-          >
-            Skillsync
-          </Link>
-
-        
-        </div>
-                {/* <a href="/" className="block w-56 mb-10">
-                  <svg
-                    version="1.1"
-                    viewBox="0 0 3368 512"
-                    xmlns="http://www.w3.org/2000/svg"
+                <div className="relative flex items-center">
+                  <Link href="/" className="flex btnNav">
+                    <Image
+                      src="/logoSS.svg"
+                      loading="lazy"
+                      style={{ color: "transparent" }}
+                      width={60}
+                      height={50}
+                      className="transition-transform duration-200 ease-in-out hover:scale-[1.3]"
+                      alt="aa"
+                    />
+                  </Link>
+                  <Link
+                    href={"/home"}
+                    className="ms-1 pt-1 btnNav normal-case text-2xl font-bold text-primary-purple"
                   >
-                    <g fill="none" fillRule="evenodd">
-                      <g transform="translate(0 -75)">
-                        <g transform="translate(0 75)">
-                          <rect
-                            width={512}
-                            height={512}
-                            rx={128}
-                            fill="#3D5AFE"
-                          />
-                          <rect
-                            x={149}
-                            y={176}
-                            width={220}
-                            height={220}
-                            fill="#fff"
-                          />
-                          <circle cx={259} cy={156} r={40} fill="#fff" />
-                          <circle cx={369} cy={286} r={40} fill="#2962FF" />
-                        </g>
-                        <text
-                          fill="white"
-                          fontFamily="Nunito-Bold, Nunito"
-                          fontSize={512}
-                          fontWeight="bold"
-                        >
-                          <tspan x={654} y={518}>
-                            Tailwindow
-                          </tspan>
-                        </text>
-                      </g>
-                    </g>
-                  </svg>
-                </a> */}
-                <p className="text-justify">
-                  Tailwindow is a collection of UI Components created using
-                  Tailwind CSS Framework. The UI Components gives you all of the
-                  building blocks you need to build any designs without any
-                  annoying opinionated styles you have to fight to override.
+                    Skillsync
+                  </Link>
+                </div>
+
+                <p className="text-start text-sm font-normal mt-5 max-w-xs">
+                Skillsync is the best community for COSCI SWU to creatives share, grow, and get hired.
                 </p>
               </div>
               <div className="px-4 my-4 w-full sm:w-auto">
@@ -85,9 +61,7 @@ function Footer2() {
                 </div>
                 <ul className="leading-8">
                   <li>
-                    <a href="#" className="hover:text-blue-400">
-                      About Us
-                    </a>
+                    <a href="#" className="hover:text-blue-400"></a>
                   </li>
                   <li>
                     <a href="#" className="hover:text-blue-400">
@@ -114,6 +88,10 @@ function Footer2() {
                 </div>
                 <ul className="leading-8">
                   <li>
+                    <FooterColumn
+                      title={footerLinks[0].title}
+                      links={footerLinks[0].links}
+                    />
                     <a href="#" className="hover:text-blue-400">
                       Getting Started With HTML and CSS
                     </a>
@@ -148,7 +126,7 @@ function Footer2() {
                 </div>
                 <a
                   href="#"
-                  className="inline-flex items-center justify-center h-8 w-8 border border-gray-100 rounded-full mr-1 hover:text-blue-400 hover:border-blue-400"
+                  className="inline-flex items-center justify-center h-8 w-8 border border-gray-100 rounded-full mr-1 hover:text-purple-400 hover:border-purple-400"
                 >
                   <svg
                     className="w-4 h-4 fill-current"
@@ -160,7 +138,7 @@ function Footer2() {
                 </a>
                 <a
                   href="#"
-                  className="inline-flex items-center justify-center h-8 w-8 border border-gray-100 rounded-full mr-1 hover:text-blue-400 hover:border-blue-400"
+                  className="inline-flex items-center justify-center h-8 w-8 border border-gray-100 rounded-full mr-1 hover:text-purple-400 hover:border-purple-400"
                 >
                   <svg
                     className="w-4 h-4 fill-current"
@@ -172,7 +150,7 @@ function Footer2() {
                 </a>
                 <a
                   href="#"
-                  className="inline-flex items-center justify-center h-8 w-8 border border-gray-100 rounded-full mr-1 hover:text-blue-400 hover:border-blue-400"
+                  className="inline-flex items-center justify-center h-8 w-8 border border-gray-100 rounded-full mr-1 hover:text-purple-400 hover:border-purple-400"
                 >
                   <svg
                     className="w-4 h-4 fill-current"
@@ -184,7 +162,7 @@ function Footer2() {
                 </a>
                 <a
                   href="#"
-                  className="inline-flex items-center justify-center h-8 w-8 border border-gray-100 rounded-full mr-1 hover:text-blue-400 hover:border-blue-400"
+                  className="inline-flex items-center justify-center h-8 w-8 border border-gray-100 rounded-full mr-1 hover:text-purple-400 hover:border-purple-400"
                 >
                   <svg
                     className="w-4 h-4 fill-current"
@@ -196,7 +174,7 @@ function Footer2() {
                 </a>
                 <a
                   href="#"
-                  className="inline-flex items-center justify-center h-8 w-8 border border-gray-100 rounded-full hover:text-blue-400 hover:border-blue-400"
+                  className="inline-flex items-center justify-center h-8 w-8 border border-gray-100 rounded-full hover:text-purple-400 hover:border-purple-400"
                 >
                   <svg
                     className="w-4 h-4 fill-current"
@@ -210,14 +188,14 @@ function Footer2() {
             </div>
           </div>
         </div>
-        <div className="bg-indigo-700 py-4 text-gray-100">
+        <div className="bg-primary-purple py-4 text-gray-100">
           <div className="container mx-auto px-4">
             <div className="-mx-4 flex flex-wrap justify-between">
-              <div className="px-4 w-full text-center sm:w-auto sm:text-left">
-                Copyright © 2020 - 2022 Tailwindow. All Rights Reserved.
+              <div className="px-4 w-full text-center  sm:w-auto sm:text-left">
+                Copyright © 2023 Skillsync. All Rights Reserved.
               </div>
               <div className="px-4 w-full text-center sm:w-auto sm:text-left">
-                Made with ❤️ by Tailwindow.
+                Made with ❤️ by SKC Team.
               </div>
             </div>
           </div>
