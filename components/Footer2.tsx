@@ -55,35 +55,25 @@ function Footer2() {
               </div>
               <div className="px-4 my-4 w-full sm:w-auto">
                 <div>
-                  <h2 className="inline-block text-2xl pb-4 mb-4 border-b-4 border-primary-purple">
-                    Company
+                  <h2 className="inline-block text-lg pb-4 mb-4 border-b-4 border-primary-purple">
+                    About
                   </h2>
                 </div>
                 <ul className="leading-8">
                   <li>
-                    <a href="#" className="hover:text-blue-400"></a>
+                  <FooterColumn
+                      title={footerLinks[0].title}
+                      links={footerLinks[0].links}
+                    />
                   </li>
-                  <li>
-                    <a href="#" className="hover:text-blue-400">
-                      Terms &amp; Conditions
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" className="hover:text-blue-400">
-                      Privacy Policy
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" className="hover:text-blue-400">
-                      Contact Us
-                    </a>
-                  </li>
+                 
+                  
                 </ul>
               </div>
               <div className="px-4 my-4 w-full sm:w-auto">
                 <div>
-                  <h2 className="inline-block text-2xl pb-4 mb-4 border-b-4 border-primary-purple">
-                    Blog
+                  <h2 className="inline-block text-lg pb-4 mb-4 border-b-4 border-primary-purple">
+                    Category
                   </h2>
                 </div>
                 <ul className="leading-8">
@@ -96,16 +86,7 @@ function Footer2() {
                       Getting Started With HTML and CSS
                     </a>
                   </li>
-                  <li>
-                    <a href="#" className="hover:text-blue-400">
-                      What Is Flex And When to Use It?
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" className="hover:text-blue-400">
-                      How TailwindCSS Can Help Your Productivity?
-                    </a>
-                  </li>
+        
                   <li>
                     <a href="#" className="hover:text-blue-400">
                       5 Tips to Make Responsive Website
@@ -120,7 +101,7 @@ function Footer2() {
               </div>
               <div className="px-4 my-4 w-full sm:w-auto xl:w-1/5">
                 <div>
-                  <h2 className="inline-block text-2xl pb-4 mb-4 border-b-4 border-primary-purple">
+                  <h2 className="inline-block text-lg pb-4 mb-4 border-b-4 border-primary-purple">
                     Connect With Us
                   </h2>
                 </div>
@@ -195,7 +176,7 @@ function Footer2() {
                 Copyright © 2023 Skillsync. All Rights Reserved.
               </div>
               <div className="px-4 w-full text-center sm:w-auto sm:text-left">
-                Made with ❤️ by SKC Team.
+                Made with &hearts; by SKC Team.
               </div>
             </div>
           </div>
