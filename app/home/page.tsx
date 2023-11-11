@@ -10,6 +10,7 @@ import Tools from "./Tools";
 import type { Metadata } from 'next'
 import Popular from "./Popular";
 import Feature from "./Feature";
+import Carousel from "./Carousel";
  
 export const metadata: Metadata = {
   title: 'Home | Skillsync',
@@ -30,6 +31,7 @@ function page() {
       <Recommend/>
       <Tools/>
       <Feature/>
+      <Carousel/>
     
 
 
