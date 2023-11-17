@@ -25,6 +25,11 @@ export const categoryFilters = [
     "Chatbots"
 ]
 
+export const footerCategory = [
+    { href: '/home', key: 'Home', text: 'Home'},
+
+]
+
 export const footerLinks = [
     {
         title: 'For developers',

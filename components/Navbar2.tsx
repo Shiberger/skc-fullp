@@ -13,7 +13,7 @@ const Navbar2 = async () => {
   const session = await getCurrentUser();
 
   return (
-    <div className="sticky inset-0 z-50 border-b border-slate-100 bg-white/80 backdrop-blur-lg">
+    <div className="sticky inset-0 z-50 border-b border-slate-100 bg-white/80 backdrop-blur-xl">
       <div className="dsnavbar mx-auto flex max-w-7xl gap-8 px-6 transition-all duration-200 ease-in-out lg:px-1 py-3 ">
         <div className="dsnavbar-start">
           <div className="dsdropdown">
