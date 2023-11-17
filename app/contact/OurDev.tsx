@@ -14,7 +14,10 @@ function OurDev() {
             incidunt ex placeat modi magni quia error alias, adipisci rem
             similique, at omnis eligendi optio eos harum.
           </p>
+
+          {/* Dev Card */}
           <div className="grid grid-cols-1 gap-8 mt-8 xl:mt-16 md:grid-cols-2 xl:grid-cols-2 mx-auto ">
+            {/* Dev 1 */}
             <div className="flex flex-col items-center p-8 transition-colors duration-200 transform cursor-pointer group hover:bg-purple-600 rounded-xl">
               <img
                 className="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300"
@@ -72,13 +75,14 @@ function OurDev() {
                 </a>
               </div>
             </div>
-            <div className="flex flex-col items-center p-8 transition-colors duration-200 transform cursor-pointer group hover:bg-blue-600 rounded-xl">
+            {/* Dev 2 */}
+            <div className="flex flex-col items-center p-8 transition-colors duration-200 transform cursor-pointer group hover:bg-purple-600 rounded-xl">
               <img
                 className="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300"
                 src="https://images.unsplash.com/photo-1531590878845-12627191e687?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80"
                 alt=""
               />
-              <h1 className="mt-4 text-2xl font-semibold text-gray-700 capitalize dark:text-white group-hover:text-white">
+              <h1 className="mt-4 text-2xl font-semibold text-gray-700 capitalize group-hover:text-white">
                 Amelia. Anderson
               </h1>
               <p className="mt-2 text-gray-500 capitalize dark:text-gray-300 group-hover:text-gray-300">

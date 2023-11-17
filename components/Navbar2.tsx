@@ -50,7 +50,7 @@ const Navbar2 = async () => {
               ))}
             </ul>
           </div>
-          <Link href="/" className="flex btnNav">
+          <Link href="/home" className="flex btnNav">
             <Image
               src="/logoSS.svg"
               loading="lazy"
