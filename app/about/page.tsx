@@ -6,6 +6,7 @@ import HeroAbout3 from './HeroAbout3'
 import GridAbout from './GridAbout'
 import CardAbout from './CardAbout'
 
+
 function page() {
   return (
     <div>
@@ -14,8 +15,6 @@ function page() {
         <GridAbout/>
         {/* <CardAbout/> */}
         <HeroAbout2/>
-        <GridAbout/>
-        {/* <ContentAbout/> */}
         <CardAbout/>
 
 
