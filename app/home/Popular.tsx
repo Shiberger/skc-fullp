@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 function Popular() {
   return (
@@ -9,13 +10,15 @@ function Popular() {
           <h1 className="font-bold text-4xl mb-1 ">Poppular</h1>
           <img className="relative w-10  pb-5" src="/fire.svg" alt="" />
         </div>
-        <h1 className="text-2xl text-slate-400 ">มาดูกันว่าอะไรกำลังมาแรงในช่วงนี้</h1>
+        <h1 className="text-2xl text-slate-400 ">
+          มาดูกันว่าอะไรกำลังมาแรงในช่วงนี้
+        </h1>
       </div>
 
       {/*  */}
       <div className="p-1 flex flex-wrap items-center justify-center">
         {/* card 1 */}
-        <div className="flex-shrink-0  mt-2 mb-6 mx-6  relative overflow-hidden bg-purple-500 rounded-lg max-w-xs shadow-lg group">
+        <div className="flex-shrink-0 m-6 relative overflow-hidden bg-purple-500 rounded-lg max-w-xs shadow-lg group">
           <svg
             className="absolute bottom-0 left-0 mb-8 scale-150 group-hover:scale-[1.65] transition-transform"
             viewBox="0 0 375 283"
@@ -55,12 +58,15 @@ function Popular() {
             <span className="block opacity-75 -mb-1">Indoor</span>
             <div className="flex justify-between">
               <span className="block font-semibold text-xl">UX/UI</span>
-              <span className=" bg-white rounded-full text-orange-500 text-xs font-bold px-5 py-2 leading-none flex items-center shadow-md btnNav ">
-                Go
-              </span>
+              <Link href={"/projectpage?category=UI/UX"}>
+                <span className=" bg-white rounded-full text-orange-500 text-xs font-bold px-5 py-2 leading-none flex items-center shadow-md btnNav ">
+                  Go
+                </span>
+              </Link>
             </div>
           </div>
         </div>
+
         {/* card 2 */}
         <div className="flex-shrink-0 m-6 relative overflow-hidden bg-orange-500 rounded-lg max-w-xs shadow-lg group">
           <svg
@@ -102,9 +108,11 @@ function Popular() {
             <span className="block opacity-75 -mb-1">Indoor</span>
             <div className="flex justify-between">
               <span className="block font-semibold text-xl">Front-End</span>
-              <span className=" bg-white rounded-full text-orange-500 text-xs font-bold px-5 py-2 leading-none flex items-center shadow-md btnNav ">
-                Go
-              </span>
+              <Link href={"/projectpage?category=Frontend"}>
+                <span className=" bg-white rounded-full text-orange-500 text-xs font-bold px-5 py-2 leading-none flex items-center shadow-md btnNav ">
+                  Go
+                </span>
+              </Link>
             </div>
           </div>
         </div>
@@ -150,9 +158,11 @@ function Popular() {
             <span className="block opacity-75 -mb-1">Indoor</span>
             <div className="flex justify-between">
               <span className="block font-semibold text-xl">Full-Stack</span>
-              <span className=" bg-white rounded-full text-orange-500 text-xs font-bold px-5 py-2 leading-none flex items-center shadow-md btnNav ">
-                Go
-              </span>
+              <Link href={"/projectpage?category=Full-Stack"}>
+                <span className=" bg-white rounded-full text-orange-500 text-xs font-bold px-5 py-2 leading-none flex items-center shadow-md btnNav ">
+                  Go
+                </span>
+              </Link>
             </div>
           </div>
         </div>
@@ -198,9 +208,11 @@ function Popular() {
             <span className="block opacity-75 -mb-1">Indoor</span>
             <div className="flex justify-between">
               <span className="block font-semibold text-xl">E-Commerce</span>
-              <span className=" bg-white rounded-full text-orange-500 text-xs font-bold px-5 py-2 leading-none flex items-center shadow-md btnNav ">
-                Go
-              </span>
+              <Link href={"/projectpage?category=E-commerce"}>
+                <span className=" bg-white rounded-full text-orange-500 text-xs font-bold px-5 py-2 leading-none flex items-center shadow-md btnNav ">
+                  Go
+                </span>
+              </Link>
             </div>
           </div>
         </div>
