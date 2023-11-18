@@ -21,18 +21,17 @@ function NotFound() {
                   <button className="sm:w-full lg:w-auto my-2 rounded-md py-4 px-8 text-center bg-gradient-to-br from-primary-purple to-purple-400 font-dm text-sm font-medium text-white shadow-md shadow-perple-400/50 transition-transform duration-200 ease-in-out hover:scale-[1.03]">
                     Back Home
                   </button>
-         
                   
                 </Link>
               </div>
             </div>
             <div>
-              <img src="https://i.ibb.co/G9DC8S0/404-2.png" />
+              <img src="https://i.ibb.co/G9DC8S0/404-2.png" alt="" />
             </div>
           </div>
         </div>
         <div>
-          <img src="https://i.ibb.co/ck1SGFJ/Group.png" />
+          <img src="https://i.ibb.co/ck1SGFJ/Group.png" alt="" />
         </div>
       </div>
     </div>
