@@ -81,9 +81,6 @@ function Footer2() {
                       title={footerLinks[0].title}
                       links={footerLinks[0].links}
                     />
-                    <a href="#" className="hover:text-blue-400">
-                      Getting Started With HTML and CSS
-                    </a>
                   </li>
 
                   <li>
