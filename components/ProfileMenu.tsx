@@ -12,7 +12,7 @@ const ProfileMenu = ({ session }: { session: SessionInterface }) => {
     const [openModal, setOpenModal] = useState(false);
 
     return (
-        <div className="flexCenter z-10 flex-col relative">
+        <div className="flexCenter z-10 flex-col relative transition-transform duration-200 ease-in-out hover:scale-[1.05]">
             <Menu as="div">
                 <Menu.Button className="flexCenter" onMouseEnter={() => setOpenModal(true)} >
                     {session?.user?.image && (
@@ -45,7 +45,7 @@ const ProfileMenu = ({ session }: { session: SessionInterface }) => {
                             {session?.user?.image && (
                                 <Image
                                     src={session?.user?.image}
-                                    className="rounded-full"
+                                    className="rounded-full "
                                     width={80}
                                     height={80}
                                     alt="profile Image"
@@ -56,18 +56,18 @@ const ProfileMenu = ({ session }: { session: SessionInterface }) => {
 
                         <div className="flex flex-col gap-3 pt-10 items-start w-full">
                             <Menu.Item>
-                                <Link href={`/profile/${session?.user?.id}`} className="text-sm">Work Preferences</Link>
+                                <Link href={`/profile/${session?.user?.id}`} className="text-sm hover:text-primary-purple">Work Preferences</Link>
                             </Menu.Item>
                             <Menu.Item>
-                                <Link href={`/profile/${session?.user?.id}`} className="text-sm">Settings</Link>
+                                <Link href={`/profile/${session?.user?.id}`} className="text-sm hover:text-primary-purple">Settings</Link>
                             </Menu.Item>
                             <Menu.Item>
-                                <Link href={`/profile/${session?.user?.id}`} className="text-sm">Profile</Link>
+                                <Link href={`/profile/${session?.user?.id}`} className="text-sm hover:text-primary-purple">Profile</Link>
                             </Menu.Item>
                         </div>
-                        <div className="w-full flexStart border-t border-nav-border mt-5 pt-5">
+                        <div className="w-full flexStart border-t border-nav-border mt-3 pt-3">
                             <Menu.Item>
-                                <button type="button" className="text-sm" onClick={() => signOut()}> 
+                                <button type="button" className="text-sm  hover:text-primary-purple" onClick={() => signOut()}> 
                                     Sign out
                                 </button>
                             </Menu.Item>
