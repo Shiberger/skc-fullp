@@ -123,7 +123,7 @@ function Footer2() {
                 </Link>
 
                 {/* twitter/x */}
-                {/* <Link
+                <Link
                   href={"https://www.facebook.com/cosciswunews/?locale=th_TH"}
                   target="blank"
                   className="inline-flex items-center justify-center h-8 w-8 border border-gray-100 rounded-full mr-1 hover:text-purple-400 hover:border-purple-400"
@@ -131,12 +131,11 @@ function Footer2() {
                   <svg
                     className="w-4 h-4 fill-current"
                     xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 320 512"
+                    viewBox="0 0 16 16"
                   >
-                    <path d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z" />
+                    <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865l8.875 11.633Z" />
                   </svg>
-                </Link> */}
-
+                </Link>
 
                 {/* IG */}
                 <Link
