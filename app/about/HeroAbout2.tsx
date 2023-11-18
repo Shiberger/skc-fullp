@@ -40,11 +40,20 @@ function HeroAbout2() {
           </div>
           {/*   Image Section     */}
           <div className="lg:inset-y-0 lg:right-0 lg:w-1/2 my-4">
-            <img
+            {/* <img
               className="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full"
               src="/gear.jpg"
               alt=""
+            /> */}
+              <div className="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full">
+            <iframe
+              className="object-cover object-center rounded-lg"
+              src="https://my.spline.design/purple3diconscopy-d48ce58b2d9c452093cfffca390cc377/"
+              frameBorder={0}
+              width="100%"
+              height="300"
             />
+          </div>
           </div>
           {/*   End of Image Section     */}
         </div>

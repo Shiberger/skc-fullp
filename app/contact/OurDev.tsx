@@ -18,17 +18,18 @@ function OurDev() {
           {/* Dev Card */}
           <div className="grid grid-cols-1 gap-8 mt-8 xl:mt-16 md:grid-cols-2 xl:grid-cols-2 mx-auto ">
             {/* Dev 1 */}
-            <div className="flex flex-col items-center p-8 transition-colors duration-200 transform cursor-pointer group hover:bg-purple-600 rounded-xl">
+            <div className="flex flex-col items-center p-8 transition-colors duration-200 transform cursor-pointer group bg-purple-50 hover:bg-purple-600 rounded-xl">
               <img
-                className="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300"
-                src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
+                className="object-cover w-40 h-40 rounded-full ring-4 ring-purple-300"
+                src="/tonkla.jpg"
+                // src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
                 alt=""
               />
               <h1 className="mt-4 text-2xl font-semibold text-gray-700 capitalize group-hover:text-white">
-                arthur melo
+                หาญณรงค์ แก้วกิริยา
               </h1>
               <p className="mt-2 text-gray-500 capitalize dark:text-gray-300 group-hover:text-gray-300">
-                design director
+                Backend Developer
               </p>
               <div className="flex mt-3 -mx-2">
                 <a
@@ -76,17 +77,18 @@ function OurDev() {
               </div>
             </div>
             {/* Dev 2 */}
-            <div className="flex flex-col items-center p-8 transition-colors duration-200 transform cursor-pointer group hover:bg-purple-600 rounded-xl">
+            <div className="flex flex-col items-center p-8 transition-colors duration-200 transform cursor-pointer group bg-purple-50 hover:bg-purple-600 rounded-xl">
               <img
-                className="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300"
-                src="https://images.unsplash.com/photo-1531590878845-12627191e687?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80"
+                className="object-cover w-40 h-40 rounded-full ring-4 ring-purple-300"
+                src="/bam.jpg"
+                // src="https://images.unsplash.com/photo-1531590878845-12627191e687?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80"
                 alt=""
               />
               <h1 className="mt-4 text-2xl font-semibold text-gray-700 capitalize group-hover:text-white">
-                Amelia. Anderson
+                กรชนก ทรัพย์สิน
               </h1>
               <p className="mt-2 text-gray-500 capitalize dark:text-gray-300 group-hover:text-gray-300">
-                Lead Developer
+                Frontend Developer
               </p>
               <div className="flex mt-3 -mx-2">
                 <a
@@ -95,7 +97,7 @@ function OurDev() {
                   aria-label="Reddit"
                 >
                   <svg
-                    className="w-6 h-6 fill-current"
+                    className="w-6 h-6 fill-current "
                     viewBox="0 0 24 24"
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"

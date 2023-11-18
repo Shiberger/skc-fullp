@@ -7,7 +7,7 @@ import Script from "next/script";
 
 function HeroHome() {
   return (
-    <div className=" lg:bg-gradient-to-b from-white to-purple-200 sm:bg-white" >
+    <div className=" lg:bg-gradient-to-b from-white to-purple-200" >
       
       {/* Container */}
       <div className="relative flex flex-col items-center mx-auto lg:flex-row-reverse lg:max-w-5xl lg:mt-12 xl:max-w-6xl md:mb-60 lg:mb-10 ">
@@ -21,7 +21,7 @@ function HeroHome() {
         </div>
         {/* Close Image Column */}
         {/* Text Column */}
-        <div className="max-w-lg bg-gradient-to-br from-slate-100 to-white  md:max-w-2xl md:z-10 md:shadow-lg md:absolute md:top-0 md:mt-48 lg:w-3/5 lg:left-0 lg:mt-20 lg:ml-20 xl:mt-24 xl:ml-5 rounded-lg">
+        <div className="max-w-lg bg-gradient-to-br from-white to-white  md:max-w-2xl md:z-10 md:shadow-lg md:absolute md:top-0 md:mt-48 lg:w-3/5 lg:left-0 lg:mt-20 lg:ml-20 xl:mt-24 xl:ml-5 rounded-lg">
           {/* Text Wrapper */}
           <div className="flex flex-col p-12 md:px-16">
             <h2 className="text-2xl font-medium uppercase text-primary-purple lg:text-4xl">
@@ -58,6 +58,7 @@ function HeroHome() {
             backgroundPosition:"center"
         }}
       >
+        
         <div className="dshero-overlay bg-opacity-60 py-20 shadow-lg"></div>
         <div className="dshero-content text-center text-neutral-content">
           <div className="max-w-md lg:max-w-lg">
