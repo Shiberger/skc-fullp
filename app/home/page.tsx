@@ -11,6 +11,7 @@ import type { Metadata } from 'next'
 import Popular from "./Popular";
 import Feature from "./Feature";
 import Carousel from "./Carousel";
+import ScrollToTop from "@/components/ScollToTop";
  
 export const metadata: Metadata = {
   title: 'Home | Skillsync',
@@ -32,6 +33,7 @@ function page() {
       <Tools/>
       <Feature/>
       {/* <Carousel/> */}
+      <ScrollToTop/>
     
 
 

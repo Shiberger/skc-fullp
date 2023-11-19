@@ -12,6 +12,8 @@ import Popular from "./home/Popular";
 import Feature from "./home/Feature";
 import Carousel from "./home/Carousel";
 
+import ScrollToTop from "@/components/ScollToTop";
+
 export const metadata: Metadata = {
   title: 'Home | Skillsync',
   description: 'Home | Skillsync',
@@ -32,6 +34,8 @@ function page() {
       <Tools/>
       <Feature/>
       {/* <Carousel/> */}
+      <ScrollToTop/>
+
     
 
 
