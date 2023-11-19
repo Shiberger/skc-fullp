@@ -2,6 +2,8 @@ import React from "react";
 import Map from "./Map";
 import type { Metadata } from "next";
 import OurDev from "./OurDev";
+import ScrollToTop from "@/components/ScollToTop";
+import HeroContact from "./HeroContact";
 
 export const metadata: Metadata = {
   title: "Contact | Skillsync",
@@ -10,8 +12,10 @@ export const metadata: Metadata = {
 function page() {
   return (
     <div>
+    <HeroContact/>
       <OurDev />
       <Map />
+      <ScrollToTop/>
     </div>
   );
 }

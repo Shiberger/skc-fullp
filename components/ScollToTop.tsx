@@ -33,7 +33,7 @@ export default function ScrollToTop() {
         {backToTopButton && (
             <button
             title="up"
-            className ="fixed bottom-5 right-5 bg-purple-400 text-white z-10 drop-shadow-md 
+            className ="fixed bottom-5 right-5 bg-purple-500 text-white z-10 opacity-80 drop-shadow-md 
             transition-all duration-300 ease-in-out hover:drop-shadow-lg hover:bg-purple-300 focus:bg-purple-300 
             md:bottom-7 md:right-7 rounded-full btnNav"
             onClick={backToTop}>

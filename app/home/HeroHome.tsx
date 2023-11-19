@@ -35,7 +35,7 @@ function HeroHome() {
             <div className="mt-8">
               {/* <a href="#" className="inline-block w-full text-center text-lg font-medium text-gray-100 bg-green-600 border-solid border-2 border-gray-600 py-4 px-10 hover:bg-green-800 hover:shadow-md md:w-48">Read
           More</a> */}
-              <Link href={"/"}>
+              <Link href={"/projectpage"}>
                 <button
                   type="button"
                   className="inline-block w-full text-center text-lg font-medium  text-white bg-gradient-to-br from-purple-600 to-blue-500 hover:bg-gradient-to-bl  rounded-lg  px-5 py-2.5 mr-2 mb-2 transition-transform duration-200 ease-in-out hover:scale-[1.03] md:w-48"

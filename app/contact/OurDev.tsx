@@ -10,14 +10,12 @@ function OurDev() {
           <h1 className="text-3xl font-semibold text-center text-gray-800 capitalize lg:text-4xl">
             Our Deverlopers
           </h1>
-          <p className="max-w-2xl mx-auto my-6 text-center text-gray-500 dark:text-gray-300">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo
-            incidunt ex placeat modi magni quia error alias, adipisci rem
-            similique, at omnis eligendi optio eos harum.
+          <p className="max-w-2xl mx-auto my-3 text-center text-lg text-slate-400">
+          ทีมงานผู้พัฒนาเว็บ Skillsync
           </p>
 
           {/* Dev Card */}
-          <div className="grid grid-cols-1 gap-8 mt-8 xl:mt-16 md:grid-cols-2 xl:grid-cols-2 mx-auto ">
+          <div className="grid grid-cols-1 gap-8 mt-5 xl:mt-16 md:grid-cols-2 xl:grid-cols-2 mx-auto ">
             {/* Dev 1 */}
             <div className="flex flex-col items-center p-8 transition-colors duration-200 transform cursor-pointer group bg-purple-50 hover:bg-purple-600 rounded-xl shadow-md">
               <img

@@ -1,3 +1,5 @@
+
+
 import React from "react";
 import Hero from "./Hero";
 import HeroHome from "./HeroHome";
@@ -32,7 +34,7 @@ function page() {
       <Recommend/>
       <Tools/>
       <Feature/>
-      {/* <Carousel/> */}
+      <Carousel/>
       <ScrollToTop/>
     
 

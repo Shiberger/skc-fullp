@@ -5,6 +5,7 @@ import ContentAbout from './ContentAbout'
 import HeroAbout3 from './HeroAbout3'
 import GridAbout from './GridAbout'
 import CardAbout from './CardAbout'
+import ScrollToTop from '@/components/ScollToTop'
 
 
 function page() {
@@ -16,6 +17,7 @@ function page() {
         {/* <CardAbout/> */}
         <HeroAbout2/>
         <CardAbout/>
+        <ScrollToTop/>
 
 
     </div>
