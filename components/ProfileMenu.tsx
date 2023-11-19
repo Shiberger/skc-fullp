@@ -67,7 +67,7 @@ const ProfileMenu = ({ session }: { session: SessionInterface }) => {
                         </div>
                         <div className="w-full flexStart border-t border-nav-border mt-3 pt-3">
                             <Menu.Item>
-                                <button type="button" className="text-sm  hover:text-primary-purple" onClick={() => signOut()}> 
+                                <button type="button" className="text-sm text-red-500 hover:text-primary-purple" onClick={() => signOut()}> 
                                     Sign out
                                 </button>
                             </Menu.Item>

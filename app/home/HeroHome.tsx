@@ -3,12 +3,9 @@ import Link from "next/link";
 import Image from "next/image";
 import Script from "next/script";
 
-
-
 function HeroHome() {
   return (
-    <div className=" lg:bg-gradient-to-b from-white to-purple-200" >
-      
+    <div className=" lg:bg-gradient-to-b from-white to-purple-200">
       {/* Container */}
       <div className="relative flex flex-col items-center mx-auto lg:flex-row-reverse lg:max-w-5xl lg:mt-12 xl:max-w-6xl md:mb-60 lg:mb-10 ">
         {/* Image Column */}
@@ -33,8 +30,6 @@ function HeroHome() {
             </p>
             {/* Button Container */}
             <div className="mt-8">
-              {/* <a href="#" className="inline-block w-full text-center text-lg font-medium text-gray-100 bg-green-600 border-solid border-2 border-gray-600 py-4 px-10 hover:bg-green-800 hover:shadow-md md:w-48">Read
-          More</a> */}
               <Link href={"/projectpage"}>
                 <button
                   type="button"
@@ -52,17 +47,18 @@ function HeroHome() {
       <div
         className="dshero min-h-100vh"
         style={{
-          backgroundImage:
-            "url(/gear.jpg)",
-            backgroundAttachment: "fixed",
-            backgroundPosition:"center"
+          backgroundImage: "url(/gear.jpg)",
+          backgroundAttachment: "fixed",
+          backgroundPosition: "center",
         }}
       >
-        
         <div className="dshero-overlay bg-opacity-60 py-20 shadow-lg"></div>
         <div className="dshero-content text-center text-neutral-content">
           <div className="max-w-md lg:max-w-lg">
-            <h1 className="mb-5 text-3xl font-thin italic">"Empower Yourself, Impact Society: Continuously Upskill and Sync for Social Change"</h1>
+            <h1 className="mb-5 text-3xl font-thin italic">
+              "Empower Yourself, Impact Society: Continuously Upskill and Sync
+              for Social Change"
+            </h1>
             {/* <p className="mb-2">
               Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
               excepturi exercitationem quasi. In deleniti eaque aut repudiandae

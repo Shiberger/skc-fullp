@@ -23,10 +23,14 @@ function HeroAbout3() {
                 Skillsyn?
               </span>
             </h1>
-            <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
-            Skillsync คือ เว็บไซต์สำหรับการลงผลงานและสร้างโปรไฟล์สะสมผลงานบนเว็บไซต์ เพื่อส่งเสริมนิสิในการสร้างรายได้และเป็นการแสดงศักยภาพของนิสิต 
+            <p className="mt-3 text-base font-light text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
+              Skillsync คือ
+              เว็บไซต์สำหรับการลงผลงานและสร้างโปรไฟล์สะสมผลงานบนเว็บไซต์
+              เพื่อส่งเสริมนิสิในการสร้างรายได้และเป็นการแสดงศักยภาพของนิสิต
+              COSCI
+              และมีเป้าหมายเพื่อเป็นที่สะสมและนำเสนอผลงานของนิสิตนักศึกษาทั่วไป
               <Link href="#" />
-            </p> 
+            </p>
             {/* Button Section */}
             <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
               <div className="rounded-md shadow">
@@ -38,13 +42,12 @@ function HeroAbout3() {
                 </a> */}
               </div>
               <div className="mt-3 sm:mt-0 sm:ml-3">
-              
                 <Link
                   href="#"
-                  className="btnNav w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-gray-800 bg-indigo-100 hover:bg-indigo-200 md:py-4 md:text-lg md:px-10"
-                >
-
-                  COSCI
+                  className="btnNav w-full flex items-center justify-center px-8 py-3 border border-transparent text-white font-medium rounded-md text-gray-800 bg-gradient-to-br from-purple-600 to-blue-500 hover:bg-indigo-200 md:py-4 md:text-lg md:px-10"
+                > COSCI คือ?
+           
+               
                 </Link>
               </div>
             </div>

@@ -1,25 +1,24 @@
-'use client';
+"use client";
 
-import React, { useRef, useState } from 'react';
+import React, { useRef, useState } from "react";
 // Import Swiper React components
-import { Swiper, SwiperSlide } from 'swiper/react';
+import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
-import 'swiper/css';
-import 'swiper/css/pagination';
-import 'swiper/css/navigation';
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
 
 // import './styles.css';
 
 // import required modules
-import { Autoplay, Pagination, Navigation } from 'swiper/modules';
+import { Autoplay, Pagination, Navigation } from "swiper/modules";
 
 export default function App() {
   return (
     <>
       <Swiper
-      slidesPerView={1}
-
+        slidesPerView={1}
         spaceBetween={30}
         // centeredSlides={true}
         autoplay={{
@@ -31,17 +30,26 @@ export default function App() {
         }}
         navigation={true}
         modules={[Autoplay, Pagination, Navigation]}
-        className="mySwiper px-6 pb-10 mx-auto drop-shadow-md text-center "
+        className="mySwiper px-6 pb-10 mx-auto drop-shadow-md text-center justify-center align-items-center"
       >
-        <SwiperSlide><img src="/gear.jpg" alt="Home Img" className='rounded-lg h-[220px] w-[800px] object-cover sm:h-[500px] md:h-[600px] sm:w-[1232px]' /></SwiperSlide>
+        <SwiperSlide>
+          <img
+            src="/gear.jpg"
+            alt="Home Img"
+            className="rounded-lg h-[220px] w-[800px] object-cover sm:h-[500px] md:h-[600px] sm:w-[1232px] align-items-center"
+          />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img
+            src="/gear.jpg"
+            alt="Home Img"
+            className="rounded-lg h-[220px] w-[800px] object-cover sm:h-[500px] md:h-[600px] sm:w-[1232px] align-items-center"
+          />
+        </SwiperSlide>
         <SwiperSlide>Slide 2</SwiperSlide>
         <SwiperSlide>Slide 3</SwiperSlide>
         <SwiperSlide>Slide 4</SwiperSlide>
-        <SwiperSlide>Slide 5</SwiperSlide>
-        <SwiperSlide>Slide 6</SwiperSlide>
-        <SwiperSlide>Slide 7</SwiperSlide>
-        <SwiperSlide>Slide 8</SwiperSlide>
-        <SwiperSlide>Slide 9</SwiperSlide>
+      
       </Swiper>
     </>
   );
