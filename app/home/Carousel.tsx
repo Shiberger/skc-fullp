@@ -31,7 +31,7 @@ export default function App() {
         }}
         navigation={true}
         modules={[Autoplay, Pagination, Navigation]}
-        className="mySwiper px-6 pb-10 mx-auto drop-shadow-md"
+        className="mySwiper px-6 pb-10 mx-auto drop-shadow-md text-center "
       >
         <SwiperSlide><img src="/gear.jpg" alt="Home Img" className='rounded-lg h-[220px] w-[800px] object-cover sm:h-[500px] md:h-[600px] sm:w-[1232px]' /></SwiperSlide>
         <SwiperSlide>Slide 2</SwiperSlide>
