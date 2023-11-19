@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.swiper-slide img {
+  display: block;
+  object-fit: cover;
+}
+.swiper {
+  margin-left: auto;
+  margin-right: auto;
+}
+.swiper-pagination-bullet-active {
+  background: #c863ff;
+}
+
+.swiper-button-next {
+  color: #c863ff;
+}
+
+.swiper-button-prev {
+  color: #c863ff;
+}

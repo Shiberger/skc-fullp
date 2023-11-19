@@ -10,19 +10,20 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 
 // import './styles.css';
+import "../style/swiper.css";
 
 // import required modules
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
 
 export default function App() {
   return (
-    <>
+    <div className="mx-10">
       <Swiper
         slidesPerView={1}
         spaceBetween={30}
         // centeredSlides={true}
         autoplay={{
-          delay: 2500,
+          delay: 3000,
           disableOnInteraction: false,
         }}
         pagination={{
@@ -30,27 +31,46 @@ export default function App() {
         }}
         navigation={true}
         modules={[Autoplay, Pagination, Navigation]}
-        className="mySwiper px-6 pb-10 mx-auto drop-shadow-md text-center justify-center align-items-center"
+        className="mySwiper px-3 pb-10 drop-shadow-md "
       >
         <SwiperSlide>
           <img
-            src="/gear.jpg"
+            src="/cosci7.jpeg"
             alt="Home Img"
-            className="rounded-lg h-[220px] w-[800px] object-cover sm:h-[500px] md:h-[600px] sm:w-[1232px] align-items-center"
+            className="mx-auto rounded-lg h-[200px] w-[400px] object-cover sm:h-[500px] md:h-[600px] sm:w-[1200px] align-items-center"
           />
         </SwiperSlide>
         <SwiperSlide>
           <img
-            src="/gear.jpg"
+            src="/cosci6.jpeg"
             alt="Home Img"
-            className="rounded-lg h-[220px] w-[800px] object-cover sm:h-[500px] md:h-[600px] sm:w-[1232px] align-items-center"
+            className="mx-auto rounded-lg h-[200px] w-[400px] object-cover sm:h-[500px] md:h-[600px] sm:w-[1200px] align-items-center"
           />
         </SwiperSlide>
-        <SwiperSlide>Slide 2</SwiperSlide>
-        <SwiperSlide>Slide 3</SwiperSlide>
-        <SwiperSlide>Slide 4</SwiperSlide>
+        <SwiperSlide>
+          <img
+            src="/cosci4.jpeg"
+            alt="Home Img"
+            className="mx-auto rounded-lg h-[200px] w-[400px] object-cover sm:h-[500px] md:h-[600px] sm:w-[1200px] align-items-center"
+          />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img
+            src="/cosci5.jpeg"
+            alt="Home Img"
+            className="mx-auto rounded-lg h-[200px] w-[400px] object-cover sm:h-[500px] md:h-[600px] sm:w-[1200px] align-items-center"
+          />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img
+            src="/cosci8.jpeg"
+            alt="Home Img"
+            className="mx-auto rounded-lg h-[200px] w-[400px] object-cover sm:h-[500px] md:h-[600px] sm:w-[1200px] align-items-center"
+          />
+        </SwiperSlide>
+      
       
       </Swiper>
-    </>
+    </div>
   );
 }
