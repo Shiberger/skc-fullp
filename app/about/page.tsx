@@ -18,6 +18,7 @@ function page() {
         <HeroAbout2/>
         <CardAbout/>
         <ScrollToTop/>
+        
 
 
     </div>

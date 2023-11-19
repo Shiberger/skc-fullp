@@ -1,7 +1,12 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { footerLinks } from "@/constants";
+
+
+import { NavLinks } from "@/constants";
+import { CategoryLinks1 } from "@/constants";
+import { CategoryLinks2} from "@/constants";
+
 
 type ColumnProps = {
   title: string;
@@ -62,10 +67,15 @@ function Footer2() {
                 </div>
                 <ul className="leading-8">
                   <li>
-                    <FooterColumn
-                      title={footerLinks[0].title}
-                      links={footerLinks[0].links}
-                    />
+                    {NavLinks.map((link) => (
+                      <Link
+                        href={link.href}
+                        key={link.text}
+                        className="flex text-slate-700 hover:text-purple-500 text-sm pb-1 font-normal"
+                      >
+                        {link.text}
+                      </Link>
+                    ))}
                   </li>
                 </ul>
               </div>
@@ -75,24 +85,30 @@ function Footer2() {
                     Category
                   </h2>
                 </div>
-                <ul className="leading-8">
+                <ul className="leading-8 flex">
                   <li>
-                    <FooterColumn
-                      title={footerLinks[0].title}
-                      links={footerLinks[0].links}
-                    />
+                    {CategoryLinks1.map((link) => (
+                      <Link
+                        href={link.href}
+                        key={link.text}
+                        className="flex text-slate-700 hover:text-purple-500 text-sm pb-1 font-normal"
+                      >
+                        {link.text}
+                      </Link>
+                    ))}
                   </li>
-
-                  <li>
-                    <a href="#" className="hover:text-blue-400">
-                      5 Tips to Make Responsive Website
-                    </a>
+                  <li className="ml-10">
+                    {CategoryLinks2.map((link) => (
+                      <Link
+                        href={link.href}
+                        key={link.text}
+                        className="flex text-slate-700 hover:text-purple-500 text-sm pb-1 font-normal"
+                      >
+                        {link.text}
+                      </Link>
+                    ))}
                   </li>
-                  <li>
-                    <a href="#" className="hover:text-blue-400">
-                      See More
-                    </a>
-                  </li>
+                  
                 </ul>
               </div>
 

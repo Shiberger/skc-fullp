@@ -9,6 +9,26 @@ export const NavLinks = [
 
 ];
 
+export const CategoryLinks1 = [
+    { href: '/projectpage?category=Frontend', key: 'Frontend', text: 'Frontend'},
+    { href: '/projectpage?category=Backend', key: 'Backend', text: 'Backend'},
+    { href: '/projectpage?category=Full-Stack', key: 'Full-Stack', text: 'Full-Stack'},
+    { href: '/projectpage?category=Mobile', key: 'Mobile', text: 'Mobile'},
+    { href: '/projectpage?category=UI/UX', key: 'UI/UX', text: 'UI/UX'},
+    { href: '/projectpage?category=Game%20Dev', key: 'Game Dev', text: 'Game Dev' },
+    { href: '/projectpage?category=DevOps', key: 'DevOps', text: 'DevOps' },
+
+];
+export const CategoryLinks2 = [
+    { href: '/projectpage?category=Data%20Science', key: 'Data Science', text: 'Data Science'},
+    { href: '/projectpage?category=Machine%20Learning', key: 'Machine Learning', text: 'Machine Learning'},
+    { href: '/projectpage?category=Cybersecurity', key: 'Cybersecurity', text: 'Cybersecurity'},
+    { href: '/projectpage?category=Blockchain', key: 'Blockchain', text: 'Blockchain'},
+    { href: '/projectpage?category=E-commerce', key: 'E-commerce', text: 'E-commerce'},
+    { href: '/projectpage?category=Chatbots', key: 'Chatbots', text: 'Chatbots'}
+
+];
+
 export const categoryFilters = [
     "Frontend",
     "Backend",

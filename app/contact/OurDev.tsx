@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import Script from "next/script";
 
 function OurDev() {
   return (
@@ -146,6 +147,7 @@ function OurDev() {
           </div>
         </div>
       </section>
+
     </div>
   );
 }
