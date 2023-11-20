@@ -55,7 +55,7 @@ function Popular() {
             <img className="relative w-40" src="/ux.svg" alt="" />
           </div>
           <div className="relative text-white px-6 pb-6 mt-6">
-            <span className="block opacity-75 -mb-1">Indoor</span>
+            <span className="block opacity-75 -mb-1">Develop</span>
             <div className="flex justify-between">
               <span className="block font-semibold text-xl">UX/UI</span>
               <Link href={"/projectpage?category=UI/UX"}>
@@ -105,7 +105,7 @@ function Popular() {
             <img className="relative w-40" src="/style.svg" alt="" />
           </div>
           <div className="relative text-white px-6 pb-6 mt-6">
-            <span className="block opacity-75 -mb-1">Indoor</span>
+            <span className="block opacity-75 -mb-1">Develop</span>
             <div className="flex justify-between">
               <span className="block font-semibold text-xl">Front-End</span>
               <Link href={"/projectpage?category=Frontend"}>
@@ -155,7 +155,7 @@ function Popular() {
             <img className="relative w-40" src="/code.svg" alt="" />
           </div>
           <div className="relative text-white px-6 pb-6 mt-6">
-            <span className="block opacity-75 -mb-1">Indoor</span>
+            <span className="block opacity-75 -mb-1">Develop</span>
             <div className="flex justify-between">
               <span className="block font-semibold text-xl">Full-Stack</span>
               <Link href={"/projectpage?category=Full-Stack"}>
@@ -205,7 +205,7 @@ function Popular() {
             <img className="relative w-40" src="/cart.svg" alt="" />
           </div>
           <div className="relative text-white px-6 pb-6 mt-6">
-            <span className="block opacity-75 -mb-1">Indoor</span>
+            <span className="block opacity-75 -mb-1">Develop</span>
             <div className="flex justify-between">
               <span className="block font-semibold text-xl">E-Commerce</span>
               <Link href={"/projectpage?category=E-commerce"}>
