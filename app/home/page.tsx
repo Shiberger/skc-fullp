@@ -30,11 +30,14 @@ function page() {
       {/* <Hero/> */}
       <HeroHome/>
       {/* <Tools/> */}
+
       <Popular/>
+      <Carousel/>
+
       <Recommend/>
       <Tools/>
       <Feature/>
-      <Carousel/>
+     
       <ScrollToTop/>
     
 

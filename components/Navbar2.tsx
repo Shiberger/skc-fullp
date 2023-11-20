@@ -9,6 +9,8 @@ import AuthProviders from "./AuthProviders";
 import Button from "./Button";
 import ProfileMenu from "./ProfileMenu";
 
+
+
 const Navbar2 = async () => {
   const session = await getCurrentUser();
 
@@ -47,6 +49,7 @@ const Navbar2 = async () => {
                 >
                   {link.text}
                 </Link>
+              
               ))}
             </ul>
           </div>

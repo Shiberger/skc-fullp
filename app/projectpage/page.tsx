@@ -6,6 +6,8 @@ import { fetchAllProjects } from "@/lib/actions";
 
 import type { Metadata } from "next";
 
+// import 'animate.css';
+
 export const metadata: Metadata = {
   title: "Projects | Skillsync",
   description: "Home | Skillsync",
@@ -49,7 +51,9 @@ const Home = async ({ searchParams: { category, endcursor } }: Props) => {
         <p className="no-result-text text-center text-xl text-primary-purple">
           No projects found, go create some first.
         </p>
-        <img src="skill.svg" className="w-[400px] h-[400px]"alt="create,project" />
+        <img src="skill.svg" className="w-[400px] h-[400px] picUpDown"alt="create,project" />
+ 
+     
       </section>
     );
   }

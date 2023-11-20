@@ -27,9 +27,10 @@
 }
 
 .swiper-button-next {
-  color: #c863ff;
+  color: transparent
 }
 
 .swiper-button-prev {
-  color: #c863ff;
+  color:transparent
+  
 }
