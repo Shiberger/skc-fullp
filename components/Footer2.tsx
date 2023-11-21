@@ -35,7 +35,7 @@ function Footer2() {
             <div className="-mx-4 flex flex-wrap justify-between">
               <div className="px-4 my-4 w-full xl:w-1/5">
                 <div className="relative flex items-center">
-                  <Link href="/home" className="flex btnNav">
+                  <Link href="/" className="flex btnNav">
                     <Image
                       src="/logoSS.svg"
                       loading="lazy"
@@ -43,11 +43,11 @@ function Footer2() {
                       width={60}
                       height={50}
                       className="transition-transform duration-200 ease-in-out hover:scale-[1.3]"
-                      alt="aa"
+                      alt="skillsync"
                     />
                   </Link>
                   <Link
-                    href={"/home"}
+                    href={"/"}
                     className="ms-1 pt-1 btnNav normal-case text-2xl font-bold text-primary-purple"
                   >
                     Skillsync

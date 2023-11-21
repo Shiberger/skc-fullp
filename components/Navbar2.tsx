@@ -57,7 +57,7 @@ const Navbar2 = async () => {
               ))}
             </ul>
           </div>
-          <Link href="/home" className="flex btnNav">
+          <Link href="/" className="flex btnNav">
             <Image
               src="/logoSS.svg"
               loading="lazy"
@@ -69,7 +69,7 @@ const Navbar2 = async () => {
             />
           </Link>
           <Link
-            href={"/home"}
+            href={"/"}
             className="ms-1 pt-1 btnNav normal-case text-xl font-bold text-primary-purple"
           >
             Skillsync

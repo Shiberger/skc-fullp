@@ -1,5 +1,5 @@
 export const NavLinks = [
-    { href: '/home', key: 'Home', text: 'Home'},
+    { href: '/', key: 'Home', text: 'Home'},
     { href: '/about', key: 'About Us', text: 'About Us' },
     { href: '/projectpage', key: 'Find Projects', text: 'Find Projects' },
     { href: '/contact', key: 'Contact Us', text: 'Contact Us'}
@@ -31,13 +31,13 @@ export const categoryFilters = [
     "Backend",
     "Full-Stack",
     "Mobile",
-    "UI/UX",
+    "UX/UI",
     "Game Dev",
-    "DevOps",
-    "Data Science",
-    "Machine Learning",
-    "Cybersecurity",
-    "Blockchain",
+    "Graphic Design",
+    "Photography",
+    "Video Editing",
+    "Content Writing",
+    "Marketing",
     "E-commerce",
     "Chatbots"
 ]
