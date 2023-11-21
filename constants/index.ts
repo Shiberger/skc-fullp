@@ -17,10 +17,10 @@ export const CategoryLinks1 = [
 
 ];
 export const CategoryLinks2 = [
-    { href: '/projectpage?category=Data%20Science', key: 'Data Science', text: 'Data Science'},
-    { href: '/projectpage?category=Machine%20Learning', key: 'Machine Learning', text: 'Machine Learning'},
-    { href: '/projectpage?category=Cybersecurity', key: 'Cybersecurity', text: 'Cybersecurity'},
-    { href: '/projectpage?category=Blockchain', key: 'Blockchain', text: 'Blockchain'},
+    { href: '/projectpage?category=Photography', key: 'Photography', text: 'Photography'},
+    { href: '/projectpage?category=Video%20Editing', key: 'Video Editing', text: 'Video Editing'},
+    { href: '/projectpage?category=Content%20Writing', key: 'Content Writing', text: 'Content Writing'},
+    { href: '/projectpage?category=Marketing', key: 'Marketing', text: 'Marketing'},
     { href: '/projectpage?category=E-commerce', key: 'E-commerce', text: 'E-commerce'},
     { href: '/projectpage?category=Chatbots', key: 'Chatbots', text: 'Chatbots'}
 
