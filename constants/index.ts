@@ -13,7 +13,7 @@ export const CategoryLinks1 = [
     { href: '/projectpage?category=Mobile', key: 'Mobile', text: 'Mobile'},
     { href: '/projectpage?category=UI/UX', key: 'UI/UX', text: 'UI/UX'},
     { href: '/projectpage?category=Game%20Dev', key: 'Game Dev', text: 'Game Dev' },
-    { href: '/projectpage?category=DevOps', key: 'DevOps', text: 'DevOps' },
+    { href: '/projectpage?category=Graphic%20Design', key: 'Graphic Design', text: 'Graphic Design' },
 
 ];
 export const CategoryLinks2 = [

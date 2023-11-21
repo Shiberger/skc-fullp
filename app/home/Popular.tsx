@@ -105,11 +105,11 @@ function Popular() {
             <img className="relative w-40" src="/style.svg" alt="" />
           </div>
           <div className="relative text-white px-6 pb-6 mt-6">
-            <span className="block opacity-75 -mb-1">Develop</span>
+            <span className="block opacity-75 -mb-1">Creative</span>
             <div className="flex justify-between">
-              <span className="block font-semibold text-xl">Front-End</span>
-              <Link href={"/projectpage?category=Frontend"}>
-                <span className=" bg-white rounded-full text-orange-500 text-xs font-bold px-5 py-2 leading-none flex items-center shadow-md btnNav ">
+              <span className="block font-semibold text-lg">Graphic Design</span>
+              <Link href={"/projectpage?category=Graphic%20Design"}>
+                <span className=" bg-white rounded-full text-purple-500 text-xs font-bold px-4 py-2 leading-none flex items-center shadow-md btnNav ">
                   Go
                 </span>
               </Link>
@@ -202,14 +202,14 @@ function Popular() {
                 opacity: "0.2",
               }}
             ></div>
-            <img className="relative w-40" src="/cart.svg" alt="" />
+            <img className="relative w-40" src="/photo.svg" alt="" />
           </div>
           <div className="relative text-white px-6 pb-6 mt-6">
-            <span className="block opacity-75 -mb-1">Develop</span>
+            <span className="block opacity-75 -mb-1">Creative</span>
             <div className="flex justify-between">
-              <span className="block font-semibold text-xl">E-Commerce</span>
-              <Link href={"/projectpage?category=E-commerce"}>
-                <span className=" bg-white rounded-full text-orange-500 text-xs font-bold px-5 py-2 leading-none flex items-center shadow-md btnNav ">
+              <span className="block font-semibold text-xl">Photography</span>
+              <Link href={"/projectpage?category=Photography"}>
+                <span className=" bg-white rounded-full text-purple-500 text-xs font-bold px-5 py-2 leading-none flex items-center shadow-md btnNav ">
                   Go
                 </span>
               </Link>

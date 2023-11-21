@@ -137,7 +137,7 @@ function Footer2() {
 
                 {/* twitter/x */}
                 <Link
-                  href={"https://www.facebook.com/cosciswunews/?locale=th_TH"}
+                  href={"https://twitter.com/CosciSWU"}
                   target="blank"
                   className="inline-flex items-center justify-center h-8 w-8 border border-gray-100 rounded-full mr-1 hover:text-purple-400 hover:border-purple-400"
                 >

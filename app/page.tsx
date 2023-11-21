@@ -34,28 +34,7 @@ function page() {
       <Recommend/>
       <Tools/>
       <Feature/>
-      {/* <Carousel/> */}
       <ScrollToTop/>
-
-
-
-       {/* <Hero/> */}
-       <HeroHome/>
-      {/* <Tools/> */}
-
-      <Popular/>
-      <Carousel/>
-
-      <Recommend/>
-      <Tools/>
-      <Feature/>
-     
-      <ScrollToTop/>
-    
-
-    
-
-
 
     </div>
   );
