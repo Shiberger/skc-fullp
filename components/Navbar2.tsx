@@ -1,24 +1,23 @@
-"use clients"
+"use clients";
 
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 
-
 import { NavLinks } from "@/constants";
 import { getCurrentUser } from "@/lib/session";
+
+
+
 
 import AuthProviders from "./AuthProviders";
 import Button from "./Button";
 import ProfileMenu from "./ProfileMenu";
 
-
-
-
-
 const Navbar2 = async () => {
   const session = await getCurrentUser();
- 
+
+
 
   return (
     <div className="sticky inset-0 z-50 border-b border-slate-100 bg-white/80 backdrop-blur-xl">
@@ -55,10 +54,7 @@ const Navbar2 = async () => {
                 >
                   {link.text}
                 </Link>
-             
-              
               ))}
-         
             </ul>
           </div>
           <Link href="/home" className="flex btnNav">
@@ -91,11 +87,8 @@ const Navbar2 = async () => {
                   >
                     {link.text}
                   </Link>
-                  
                 ))}
-      
               </ul>
-
             </li>
           </ul>
         </div>

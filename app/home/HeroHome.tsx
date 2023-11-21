@@ -21,7 +21,7 @@ function HeroHome() {
         <div className="max-w-lg bg-gradient-to-br from-white to-white  md:max-w-2xl md:z-10 md:shadow-lg md:absolute md:top-0 md:mt-48 lg:w-3/5 lg:left-0 lg:mt-20 lg:ml-20 xl:mt-24 xl:ml-5 rounded-lg">
           {/* Text Wrapper */}
           <div className="flex flex-col p-12 md:px-16">
-            <h2 className="text-2xl font-medium uppercase text-primary-purple lg:text-4xl">
+            <h2 className="uppercase text-primary-purple text-4xl md:text-4xl lg:text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
               Welcome to Skillsync
             </h2>
             <p className="mt-4">

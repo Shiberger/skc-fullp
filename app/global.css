@@ -43,11 +43,9 @@ body {
   @apply transition-transform duration-200 ease-in-out hover:scale-[1.03];
 }
 
-
 .btnZoom {
   @apply transition-transform duration-200 ease-in-out hover:scale-[1.2];
 }
-
 
 .flexCenter {
   @apply flex justify-center items-center;
@@ -94,6 +92,11 @@ body {
 
 .user-info {
   @apply flex flex-wrap whitespace-nowrap text-sm font-normal gap-2 w-full;
+}
+
+/* Navbar */
+.NavActive{
+  @apply text-black
 }
 
 /* Home */
@@ -206,13 +209,17 @@ body {
 }
 
 @keyframes updown {
-    0% {
-        transform: translateY(-20px);
-    }
-    50% {
-        transform: translateY(20px);
-    }
-    100% {
-        transform: translateY(-20px);
-    }
+  0% {
+    transform: translateY(-20px);
+  }
+  50% {
+    transform: translateY(20px);
+  }
+  100% {
+    transform: translateY(-20px);
+  }
+}
+
+.hoverZoom {
+  @apply transition duration-300 ease-in-out hover:scale-105;
 }

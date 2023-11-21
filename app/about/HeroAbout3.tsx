@@ -10,13 +10,13 @@ function HeroAbout3() {
           {/*   Image Section     */}
           <div className="lg:inset-y-0  md:order-first lg:right-0 lg:w-1/2 my-4">
             <img
-              className="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full rounded-lg shadow-md"
+              className="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full rounded-lg shadow-md transition duration-300 ease-in-out hover:scale-105"
               src="https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2850&q=80"
               alt=""
             />
           </div>
           {/* Content */}
-          <div className="sm:text-center lg:text-left">
+          <div className="sm:text-center lg:text-left ps-4">
             <h1 className="text-5xl tracking-tight font-bold text-gray-800 sm:text-4xl md:text-5xl py-3">
               <span className="block xl:inline">What is </span>
               <span className="block text-primary purple xl:inline">
@@ -29,7 +29,6 @@ function HeroAbout3() {
               เพื่อส่งเสริมนิสิในการสร้างรายได้และเป็นการแสดงศักยภาพของนิสิต
               COSCI
               และมีเป้าหมายเพื่อเป็นที่สะสมและนำเสนอผลงานของนิสิตนักศึกษาทั่วไป
-              <Link href="#" />
             </p>
             {/* Button Section */}
             <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
@@ -43,7 +42,8 @@ function HeroAbout3() {
               </div>
               <div className="mt-3 sm:mt-0 sm:ml-3">
                 <Link
-                  href="#"
+                  href="http://cosci.swu.ac.th/"
+                  target="blank"
                   className="btnNav w-full flex items-center justify-center px-8 py-3 border border-transparent text-white font-medium rounded-md text-gray-800 bg-gradient-to-br from-purple-600 to-blue-500 hover:bg-indigo-200 md:py-4 md:text-lg md:px-10"
                 > COSCI คือ?
            
