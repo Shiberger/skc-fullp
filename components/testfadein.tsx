@@ -1,12 +1,12 @@
-import React from "react";
+// pages/index.tsx
+import FadeIn from "./FadeIn";
 import Link from "next/link";
-import Image from "next/image";
-import Script from "next/script";
-import FadeIn from "@/components/FadeIn";
-const HeroHome: React.FC = () => {
-  return (
 
-    <div className=" lg:bg-gradient-to-b from-white to-purple-200">
+
+const HomePage: React.FC = () => {
+  return (
+    <FadeIn>
+        <div className=" lg:bg-gradient-to-b from-white to-purple-200">
       {/* Container */}
       <div className="relative flex flex-col items-center mx-auto lg:flex-row-reverse lg:max-w-5xl lg:mt-12 xl:max-w-6xl md:mb-60 lg:mb-10 ">
         {/* Image Column */}
@@ -69,7 +69,8 @@ const HeroHome: React.FC = () => {
         </div>
       </div>
     </div>
+    </FadeIn>
   );
-}
+};
 
-export default HeroHome;
+export default HomePage;
