@@ -3,7 +3,7 @@ import React from "react";
 function GridAbout() {
   return (
     <div className="">
-      <div className="container relative flex flex-col justify-between h-full max-w-6xl px-10 mx-auto xl:px-0 mt-5">
+      <div className="container relative flex flex-col justify-between h-full max-w-6xl px-10 mx-auto xl:px-0 mt-20">
         <h2 className="mb-1 text-3xl font-extrabold leading-tight text-gray-900">
           หลักสูตร
         </h2>
