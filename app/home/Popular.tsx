@@ -41,7 +41,7 @@ function Popular() {
         </h1>
       </div>
 
-      {/*  */}
+      {/* List */}
       <div className="p-1 flex flex-wrap items-center justify-center">
         {/* card 1 */}
         <div className="flex-shrink-0 m-6 relative overflow-hidden bg-purple-500 rounded-lg max-w-xs shadow-lg group">

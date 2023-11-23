@@ -2,13 +2,13 @@ import React from "react";
 
 function GridAbout() {
   return (
-    <div className="">
+    <div>
       <div className="container relative flex flex-col justify-between h-full max-w-6xl px-10 mx-auto xl:px-0 mt-20">
         <h2 className="mb-1 text-3xl font-extrabold leading-tight text-gray-900">
-          หลักสูตร
+        Courses
         </h2>
         <p className="mb-6 text-lg text-slate-500">
-          สาขาวิชาที่เกี่ยวข้องเพื่อการนำไปพัฒนาต่อยอด
+          หลักสูตรสาขาวิชาที่เกี่ยวข้องเพื่อการนำไปพัฒนาต่อยอด
         </p>
         <div className="w-full">
           <div className="flex flex-col w-full mb-10 sm:flex-row">
@@ -24,7 +24,7 @@ function GridAbout() {
                   <p className="mt-3 mb-1 text-xs font-medium text-indigo-500 uppercase">
                     ------------
                   </p>
-                  <p className="mb-2 text-slate-600">
+                  <p className="mb-2 text-slate-600 font-light">
                     สร้างนักสื่อสารทางด้านคอมพิวเตอร์
                     ที่มีความเชี่ยวชาญและชำนาญในยุคดิจิทัล
                     เพื่อตอบสนองทุกความต้องการในสังคมธุรกิจ
@@ -46,7 +46,7 @@ function GridAbout() {
                   <p className="mt-3 mb-1 text-xs font-medium text-purple-500 uppercase">
                     ------------
                   </p>
-                  <p className="mb-2 text-slate-600">
+                  <p className="mb-2 text-slate-600 font-light">
                     เน้นการปฏิบัติในการสร้างสรรค์งานออกแบบต่างๆ
                     เพื่อสามารต่อยอดในงานธุรกิจได้อย่างมืออาชีพ
                     สร้างกลยุทธ์ใหม่ๆ ด้านการสื่อสาร
@@ -71,7 +71,7 @@ function GridAbout() {
                   <p className="mt-3 mb-1 text-xs font-medium text-blue-400 uppercase">
                     ------------
                   </p>
-                  <p className="mb-2 text-slate-600">
+                  <p className="mb-2 text-slate-600 font-light">
                     สร้างผู้ที่มีความรู้ ความเชี่ยวชาญ ทั้งด้านการแสดง
                     และกำกับการแสดงภาพยนตร์ ประยุกต์และนำไปใช้ผ่านสื่อต่างๆ เช่น
                     ภาพถ่าย ภาพยนตร์ ซีรีย์ ละครโทรทัศน์ งานโฆษณา
@@ -93,7 +93,7 @@ function GridAbout() {
                   <p className="mt-3 mb-1 text-xs font-medium text-yellow-400 uppercase">
                     ------------
                   </p>
-                  <p className="mb-2 text-slate-600">
+                  <p className="mb-2 text-slate-600 font-light">
                     สร้างนักบริหารจัดการธุรกิจดิจิทัล ให้มีความรู้
                     ความเข้าใจธรรมชาติของธุรกิจออนไลน์ สร้างสรรค์
                     ต่อยอดธุรกิจบนแพลตฟอร์มต่างๆ ให้มีประสิทธิภาพสูงสุด
@@ -114,7 +114,7 @@ function GridAbout() {
                   <p className="mt-3 mb-1 text-xs font-medium text-orange-500 uppercase">
                     ------------
                   </p>
-                  <p className="mb-2 text-slate-600">
+                  <p className="mb-2 text-slate-600 font-light">
                   สร้างนักออกแบบที่ผสมผสานทักษะทางด้านศิลปะ
                     และความคิดสร้างสรรค์ ร่วมกับเทคโนโลยีการสื่อสาร
                     ผ่านการนำเสนอในรูปแบบงานสร้างสรรค์ภาพกราฟฟิก,อนิเมชั่น,

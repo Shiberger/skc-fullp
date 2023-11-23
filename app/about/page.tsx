@@ -9,6 +9,7 @@ import ContentAbout from './ContentAbout'
 import CardAbout from './CardAbout'
 
 import ScrollToTop from '@/components/ScollToTop'
+import LastSection from './LastSection'
 
 
 function page() {
@@ -18,7 +19,7 @@ function page() {
         <HeroAbout2/>
         <GridAbout/>
         <HeroAbout3/>
-        <CardAbout/>
+        <LastSection/>
         <ScrollToTop/>
         
 
