@@ -2,6 +2,8 @@ import React from "react";
 import HeroHome from "./home/HeroHome";
 import Recommend from "./home/Recommend";
 
+import Gif from "./home/Gif";
+
 
 import Tools from "./home/Tools";
 
@@ -28,12 +30,15 @@ function page() {
       {/* <HomePage /> */}
       <HeroHome />
       <YourPage2/>
+
+
       {/* <Tools/> */}
-      <Carousel />
+      {/* <Carousel /> */}
       <Popular />
       <Recommend />
-      <Tools />
-      <Feature />
+      {/* <Tools /> */}
+      {/* <Feature /> */}
+      <Gif/>
 
       <ScrollToTop />
     </div>

@@ -1,14 +1,40 @@
+"use client"
 import React from "react";
 import Link from "next/link";
+import { Player, Controls } from "@lottiefiles/react-lottie-player";
 
 function Popular() {
   return (
     <div>
       <div className="text-center p-2 mt-3">
         <div className=" flex justify-center">
-          <img className="relative w-10 pb-5" src="/fire.svg" alt="" />
-          <h1 className="font-bold text-4xl mb-1 ">Poppular</h1>
-          <img className="relative w-10  pb-5" src="/fire.svg" alt="" />
+          {/* <img className="relative w-10 pb-5" src="/fire.svg" alt="" /> */}
+          <Player
+              autoplay
+              loop
+              src="firepop.json"
+              className="relative mb-9"
+              style={{ height: "80px", width: "80px" }}
+            >
+              <Controls
+                visible={false}
+                buttons={["play", "repeat", "frame", "debug"]}
+              />
+            </Player>
+          <h1 className="font-bold text-4xl mt-6">Poppular</h1>
+          {/* <img className="relative w-10  pb-5" src="/fire.svg" alt="" /> */}
+          <Player
+              autoplay
+              loop
+              src="firepop.json"
+              className="relative mb-9"
+              style={{ height: "80px", width: "80px" }}
+            >
+              <Controls
+                visible={false}
+                buttons={["play", "repeat", "frame", "debug"]}
+              />
+            </Player>
         </div>
         <h1 className="text-2xl text-slate-400 ">
           มาดูกันว่าอะไรกำลังมาแรงในช่วงนี้
