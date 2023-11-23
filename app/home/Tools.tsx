@@ -17,6 +17,7 @@ function Tools() {
             based on user behavior and historical data.
           </p>
         </div>
+        
         {/* <div className="mx-auto grid justify-center gap-4 sm:grid-cols-2 md:max-w-[64rem] md:grid-cols-3">
           <div className="relative overflow-hidden rounded-lg border  bg-purple-500 transition-all duration-300 group-hover:bg-purple-400 bg-white select-none hover:shadow  hover:shadow-purple-200 p-2">
             <div className="flex h-[180px] flex-col justify-between rounded-md p-6">

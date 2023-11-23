@@ -4,7 +4,7 @@ import Link from "next/link";
 function Popular() {
   return (
     <div>
-      <div className="text-center p-2 mt-10">
+      <div className="text-center p-2 mt-3">
         <div className=" flex justify-center">
           <img className="relative w-10 pb-5" src="/fire.svg" alt="" />
           <h1 className="font-bold text-4xl mb-1 ">Poppular</h1>
