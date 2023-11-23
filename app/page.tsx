@@ -10,6 +10,7 @@ import Popular from "./home/Popular";
 import Feature from "./home/Feature";
 import Carousel from "./home/Carousel";
 import HomePage from "@/components/testfadein";
+import YourPage2 from "@/components/Homepage4";
 
 
 import ScrollToTop from "@/components/ScollToTop";
@@ -26,6 +27,7 @@ function page() {
 
       {/* <HomePage /> */}
       <HeroHome />
+      <YourPage2/>
       {/* <Tools/> */}
       <Carousel />
       <Popular />
