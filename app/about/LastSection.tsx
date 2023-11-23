@@ -102,13 +102,15 @@ function LastSection() {
                 </a>
               </div>
 
+
               <img
                 src="news2.png"
                 alt=""
-                className="mb-6 shadow-md rounded-lg bg-slate-50 w-full sm:w-[17rem] sm:mb-0 xl:mb-6 xl:w-full"
+                className="mb-6 shadow-md rounded-lg bg-slate-50 w-full sm:w-[17rem] sm:mb-0 xl:mb-6 xl:w-full "
                 width={1216}
                 height={640}
               />
+           
             </li>
             {/* news3 */}
             <li className="relative flex flex-col sm:flex-row xl:flex-col items-start">
@@ -123,9 +125,8 @@ function LastSection() {
                 <div className="prose prose-slate prose-sm  text-slate-600 font-light">
                   <p>
                     นิสิตสาขาภาพยนตร์และสื่อดิจิทัล
-                    ได้รับรางวัลในงานเทศกาลภาพยนตร์สั้น ครั้งที่
-                    23 จัดโดย หอภาพยนตร์ร่วมกับมูลนิธิหนังไทย ที่เมืองมายา
-                    หอภาพยนตร์
+                    ได้รับรางวัลในงานเทศกาลภาพยนตร์สั้น ครั้งที่ 23 จัดโดย
+                    หอภาพยนตร์ร่วมกับมูลนิธิหนังไทย ที่เมืองมายา หอภาพยนตร์
                   </p>
                 </div>
                 <a

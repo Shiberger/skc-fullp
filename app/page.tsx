@@ -17,6 +17,7 @@ import YourPage2 from "@/components/Homepage4";
 
 import ScrollToTop from "@/components/ScollToTop";
 import PoppularList from "./home/PopularList";
+import News from "./home/News";
 
 
 export const metadata: Metadata = {
@@ -36,11 +37,12 @@ function page() {
       {/* <Tools/> */}
       {/* <Carousel /> */}
       <Popular />
-      <PoppularList/>
+      {/* <PoppularList/> */}
       <Recommend />
       {/* <Tools /> */}
       {/* <Feature /> */}
       <Gif/>
+      {/* <News/> */}
 
       <ScrollToTop />
     </div>
