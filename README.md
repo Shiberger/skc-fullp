@@ -34,6 +34,7 @@ npm i
 
 ```powershell
 npm install
+```
 
 ### Run server
 
