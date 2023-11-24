@@ -220,10 +220,10 @@ Props */
   }
 }
 .popular img:hover {
-  animation: updown 3s linear infinite;
+  animation: updown2 2s linear infinite;
 }
 
-@keyframes updown {
+@keyframes updown2 {
   0% {
     transform: translateY(-10px);
   }

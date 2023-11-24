@@ -47,6 +47,7 @@ const HeroHome: React.FC = () => {
           </div>
           {/* Close Text Column */}
         </div>
+        {/* About */}
         <div
           className="dshero min-h-100vh"
           style={{

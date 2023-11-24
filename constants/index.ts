@@ -25,6 +25,12 @@ export const CategoryLinks2 = [
     { href: '/projectpage?category=Chatbots', key: 'Chatbots', text: 'Chatbots'}
 
 ];
+export const FAQtext = [
+    { title: 'ฉันสามารถลงงาน', text: 'Photography'},
+    { title: 'ฉันสามารถลงงาน', text: 'Photography'},
+    { title: 'ฉันสามารถลงงาน', text: 'Photography'},
+
+];
 
 export const categoryFilters = [
     "Frontend",

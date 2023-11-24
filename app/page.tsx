@@ -4,7 +4,6 @@ import Recommend from "./home/Recommend";
 
 import Gif from "./home/Gif";
 
-
 import Tools from "./home/Tools";
 
 import type { Metadata } from "next";
@@ -14,13 +13,11 @@ import Carousel from "./home/Carousel";
 import HomePage from "@/components/testfadein";
 import YourPage2 from "@/components/Homepage4";
 
-
 import ScrollToTop from "@/components/ScollToTop";
 import PoppularList from "./home/PopularList";
 import News from "./home/News";
 import Carousels from "./home/Carousels";
-
-
+import Gallery from "./home/Gallery";
 
 export const metadata: Metadata = {
   title: "Home | Skillsync",
@@ -30,28 +27,22 @@ export const metadata: Metadata = {
 function page() {
   return (
     <div>
-
       {/* <HomePage /> */}
       <HeroHome />
       {/* <YourPage2/> */}
-      <Carousels/>
-
+      <Carousels />
 
       {/* <Tools/> */}
       {/* <Carousel /> */}
       <Popular />
 
-
       {/* BUG ถ้า pull ข้อมูลได้ */}
       {/* <Recommend /> */}
 
-
       {/* <Feature /> */}
-      <News/>
-      
-      <Gif/>
+      <News />
 
-
+      <Gif />
 
       <ScrollToTop />
     </div>
