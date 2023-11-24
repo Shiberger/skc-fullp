@@ -28,7 +28,7 @@ Follow instructions at the prompt to set up dependencies
 ```powershell
 npm i
 
-# and
+# or
 
 ```
 npm install
@@ -37,12 +37,10 @@ npm install
 
 ```powershell
 npm run dev
-
-localhost:3000
+```
 
 ```powershell
 npx grafbase dev
-
-localhost:4000
+```
 
 Open your favorite text editor and start coding!
