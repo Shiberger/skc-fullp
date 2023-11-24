@@ -9,9 +9,7 @@ import Tools from "./home/Tools";
 import type { Metadata } from "next";
 import Popular from "./home/Popular";
 import Feature from "./home/Feature";
-import Carousel from "./home/Carousel";
-import HomePage from "@/components/testfadein";
-import YourPage2 from "@/components/Homepage4";
+
 
 import ScrollToTop from "@/components/ScollToTop";
 import PoppularList from "./home/PopularList";
@@ -27,13 +25,9 @@ export const metadata: Metadata = {
 function page() {
   return (
     <div>
-      {/* <HomePage /> */}
-      <HeroHome />
-      {/* <YourPage2/> */}
-      <Carousels />
 
-      {/* <Tools/> */}
-      {/* <Carousel /> */}
+      <HeroHome />
+      <Carousels />
       <Popular />
 
       {/* BUG ถ้า pull ข้อมูลได้ */}
@@ -41,9 +35,7 @@ function page() {
 
       {/* <Feature /> */}
       <News />
-
       <Gif />
-
       <ScrollToTop />
     </div>
   );

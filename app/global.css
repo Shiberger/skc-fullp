@@ -242,3 +242,7 @@ Props */
 .card-zoom-image {
   @apply absolute w-full h-full transition-all duration-500 ease-in-out transform bg-center bg-cover;
 }
+
+.dscollapse-open {
+  @apply bg-slate-400
+}

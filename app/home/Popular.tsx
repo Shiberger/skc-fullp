@@ -82,7 +82,7 @@ function Popular() {
             <span className="block opacity-75 -mb-1">Develop</span>
             <div className="flex justify-between">
               <span className="block font-semibold text-xl">UX/UI</span>
-              <Link href={"/projectpage?category=UI/UX"}>
+              <Link href={"/projectpage?category=UX/UI"}>
                 <span className=" bg-white rounded-full text-orange-500 text-xs font-bold px-5 py-2 leading-none flex items-center shadow-md btnNav ">
                   Go
                 </span>

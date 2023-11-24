@@ -1,9 +1,26 @@
 "use client";
 import React from "react";
 import { Player, Controls } from "@lottiefiles/react-lottie-player";
-import { FAQtext } from "@/constants";
+import { FAQtext, footerLinks } from "@/constants";
 
 function Gif() {
+  const faq = [
+    {
+      content: "สามารถลงงานได้มากกว่า 1 หมวดหมู่หรือไม่?",
+      answer:
+        "คุณสามารถลงกี่งาน กี่หมวดหมู่ก็ได้ โดยสามารถเลือกลงหมวดหมู่ได้ตอน Create ผลงานแต่ละงาน",
+    },
+    {
+      content: "สามารถเพิ่มหมวดหมู่ เพื่อลงผลงานได้ไหม? ",
+      answer:
+        "คุณสามารถเลือกลงในหมวดหมู่ที่ใกล้เคียงที่สุดหรือหากไม่มีหมวดหมู่ที่คุณต้องการสามารถแนะนำหมวดหมู่ที่คุณต้องการให้เพิ่มมาให้เราได้ที่หน้า Contact us",
+    },
+    {
+      content: "ไม่ใช่นิสิต COSCI SWU สามารถลงงานได้ไหม?",
+      answer:
+        "สามารถลงได้ ถ้าหากคุณมีผลงานที่เกี่ยวข้องกับ Categoryหรือหมวดหมู่ที่เรามี",
+    },
+  ];
   return (
     <div>
       <div
@@ -30,45 +47,17 @@ function Gif() {
               </Player>
             </div>
             <div className="lg:flex-grow lg:pr-10 md:w-1/2 lg:pl-30 md:pl-1 md:mr-10 flex flex-col md:items-start md:text-left items-center text-center">
-              <div className="dscollapse dscollapse-arrow bg-base-200 mb-3">
-                <input type="radio" name="my-accordion-2" />
-                <div className="dscollapse-title text-xl font-medium">
-                  {/*  */}
-                  <p>hello</p>
-                  {/* {FAQtext.map((link) => (
-                <p
-                 
-                  className="text-black hover:text-purple-500 focus:text-purple-300 text-md my-1 px-2 py-1 rounded-sm pr-3 hover:bg-slate-200 "
-                >
-                  {link.title}
-                </p>
-              ))} */}
+              {faq.map((item, index) => (
+                <div className="dscollapse dscollapse-arrow bg-purple-200 mb-3 shadow-xl">
+                  <input type="radio" name="my-accordion-2" />
+                  <div className="dscollapse-title text-lg font-medium">
+                    {item.content}
+                  </div>
+                  <div className="dscollapse-content">{item.answer}</div>
                 </div>
-                <div className="dscollapse-content">
-                  <p>hello</p>
-                </div>
-              </div>
-              <div className="dscollapse dscollapse-arrow bg-base-200 mb-3">
-                <input type="radio" name="my-accordion-2" />
-                <div className="dscollapse-title text-xl font-medium">
-                  Click to open this one and close others
-                </div>
-                <div className="dscollapse-content">
-                  <p>hello</p>
-                </div>
-              </div>
-              <div className="dscollapse dscollapse-arrow bg-base-200 mb-3">
-                <input type="radio" name="my-accordion-2" />
-                <div className="dscollapse-title text-xl font-medium">
-                  Click to open this one and close others
-                </div>
-                <div className="dscollapse-content">
-                  <p>hello</p>
-                </div>
-              </div>
+              ))}
             </div>
           </div>
-    
         </div>
       </div>
     </div>

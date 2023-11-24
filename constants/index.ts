@@ -11,11 +11,12 @@ export const CategoryLinks1 = [
     { href: '/projectpage?category=Backend', key: 'Backend', text: 'Backend'},
     { href: '/projectpage?category=Full-Stack', key: 'Full-Stack', text: 'Full-Stack'},
     { href: '/projectpage?category=Mobile', key: 'Mobile', text: 'Mobile'},
-    { href: '/projectpage?category=UI/UX', key: 'UI/UX', text: 'UI/UX'},
+    { href: '/projectpage?category=UX/UI', key: 'UX/UI', text: 'UX/UI'},
     { href: '/projectpage?category=Game%20Dev', key: 'Game Dev', text: 'Game Dev' },
     { href: '/projectpage?category=Graphic%20Design', key: 'Graphic Design', text: 'Graphic Design' },
 
 ];
+
 export const CategoryLinks2 = [
     { href: '/projectpage?category=Photography', key: 'Photography', text: 'Photography'},
     { href: '/projectpage?category=Video%20Editing', key: 'Video Editing', text: 'Video Editing'},
@@ -25,8 +26,9 @@ export const CategoryLinks2 = [
     { href: '/projectpage?category=Chatbots', key: 'Chatbots', text: 'Chatbots'}
 
 ];
+
 export const FAQtext = [
-    { title: 'ฉันสามารถลงงาน', text: 'Photography'},
+    { title: 'question1', text: 'qwertyuiop[]zxcvbnm,.'},
     { title: 'ฉันสามารถลงงาน', text: 'Photography'},
     { title: 'ฉันสามารถลงงาน', text: 'Photography'},
 
