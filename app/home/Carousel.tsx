@@ -14,6 +14,7 @@ import "../style/swiper.css";
 
 // import required modules
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
+import SlideSwiper from "@/components/SlideSwiper";
 
 export default function App() {
   return (

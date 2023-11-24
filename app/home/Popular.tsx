@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import React from "react";
 import Link from "next/link";
 import { Player, Controls } from "@lottiefiles/react-lottie-player";
@@ -8,33 +8,31 @@ function Popular() {
     <div>
       <div className="text-center p-2 mt-3">
         <div className=" flex justify-center">
-          {/* <img className="relative w-10 pb-5" src="/fire.svg" alt="" /> */}
           <Player
-              autoplay
-              loop
-              src="firepop.json"
-              className="relative mb-9"
-              style={{ height: "80px", width: "80px" }}
-            >
-              <Controls
-                visible={false}
-                buttons={["play", "repeat", "frame", "debug"]}
-              />
-            </Player>
-          <h1 className="font-bold text-4xl mt-6">Poppular</h1>
-          {/* <img className="relative w-10  pb-5" src="/fire.svg" alt="" /> */}
+            autoplay
+            loop
+            src="firepop.json"
+            className="relative mb-9"
+            style={{ height: "80px", width: "80px" }}
+          >
+            <Controls
+              visible={false}
+              buttons={["play", "repeat", "frame", "debug"]}
+            />
+          </Player>
+          <h1 className="font-bold text-4xl mt-6">Popular</h1>
           <Player
-              autoplay
-              loop
-              src="firepop.json"
-              className="relative mb-9"
-              style={{ height: "80px", width: "80px" }}
-            >
-              <Controls
-                visible={false}
-                buttons={["play", "repeat", "frame", "debug"]}
-              />
-            </Player>
+            autoplay
+            loop
+            src="firepop.json"
+            className="relative mb-9"
+            style={{ height: "80px", width: "80px" }}
+          >
+            <Controls
+              visible={false}
+              buttons={["play", "repeat", "frame", "debug"]}
+            />
+          </Player>
         </div>
         <h1 className="text-2xl text-slate-400 ">
           มาดูกันว่าอะไรกำลังมาแรงในช่วงนี้
@@ -69,7 +67,7 @@ function Popular() {
               fill="white"
             />
           </svg>
-          <div className="relative pt-10 px-10 flex items-center justify-center group-hover:scale-110 transition-transform">
+          <div className="popular relative pt-10 px-10 flex items-center justify-center group-hover:scale-110 transition-transform">
             <div
               className="block absolute w-48 h-48 bottom-0 left-0 -mb-24 ml-3"
               style={{
@@ -119,7 +117,7 @@ function Popular() {
               fill="white"
             />
           </svg>
-          <div className="relative pt-10 px-10 flex items-center justify-center group-hover:scale-110 transition-transform">
+          <div className="popular relative pt-10 px-10 flex items-center justify-center group-hover:scale-110 transition-transform">
             <div
               className="block absolute w-48 h-48 bottom-0 left-0 -mb-24 ml-3"
               style={{
@@ -133,7 +131,9 @@ function Popular() {
           <div className="relative text-white px-6 pb-6 mt-6">
             <span className="block opacity-75 -mb-1">Creative</span>
             <div className="flex justify-between">
-              <span className="block font-semibold text-lg">Graphic Design</span>
+              <span className="block font-semibold text-lg">
+                Graphic Design
+              </span>
               <Link href={"/projectpage?category=Graphic%20Design"}>
                 <span className=" bg-white rounded-full text-purple-500 text-xs font-bold px-4 py-2 leading-none flex items-center shadow-md btnNav ">
                   Go
@@ -169,7 +169,7 @@ function Popular() {
               fill="white"
             />
           </svg>
-          <div className="relative pt-10 px-10 flex items-center justify-center group-hover:scale-110 transition-transform">
+          <div className="popular relative pt-10 px-10 flex items-center justify-center group-hover:scale-110 transition-transform">
             <div
               className="block absolute w-48 h-48 bottom-0 left-0 -mb-24 ml-3"
               style={{
@@ -219,7 +219,7 @@ function Popular() {
               fill="white"
             />
           </svg>
-          <div className="relative pt-10 px-10 flex items-center justify-center group-hover:scale-110 transition-transform">
+          <div className="popular relative pt-10 px-10 flex items-center justify-center group-hover:scale-110 transition-transform">
             <div
               className="block absolute w-48 h-48 bottom-0 left-0 -mb-24 ml-3"
               style={{

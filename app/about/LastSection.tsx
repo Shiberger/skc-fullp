@@ -55,7 +55,7 @@ function LastSection() {
               <img
                 src="news1.png"
                 alt=""
-                className="mb-6 shadow-md rounded-lg bg-slate-50 w-full sm:w-[17rem] sm:mb-0 xl:mb-6 xl:w-full"
+                className="mb-6 shadow-md rounded-lg bg-slate-50 w-full sm:w-[17rem] sm:mb-0 xl:mb-6 xl:w-full btnNav"
                 width={1216}
                 height={640}
               />
@@ -106,7 +106,7 @@ function LastSection() {
               <img
                 src="news2.png"
                 alt=""
-                className="mb-6 shadow-md rounded-lg bg-slate-50 w-full sm:w-[17rem] sm:mb-0 xl:mb-6 xl:w-full "
+                className="mb-6 shadow-md rounded-lg bg-slate-50 w-full sm:w-[17rem] sm:mb-0 xl:mb-6 xl:w-full btnNav"
                 width={1216}
                 height={640}
               />
@@ -157,7 +157,7 @@ function LastSection() {
               <img
                 src="news3.png"
                 alt=""
-                className="mb-6 shadow-md rounded-lg bg-slate-50 w-full sm:w-[17rem] sm:mb-0 xl:mb-6 xl:w-full"
+                className="mb-6 shadow-md rounded-lg bg-slate-50 w-full sm:w-[17rem] sm:mb-0 xl:mb-6 xl:w-full btnNav"
                 width={1216}
                 height={640}
               />

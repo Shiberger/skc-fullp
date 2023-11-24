@@ -18,6 +18,7 @@ import YourPage2 from "@/components/Homepage4";
 import ScrollToTop from "@/components/ScollToTop";
 import PoppularList from "./home/PopularList";
 import News from "./home/News";
+import Carousels from "./home/Carousels";
 
 
 
@@ -32,22 +33,24 @@ function page() {
 
       {/* <HomePage /> */}
       <HeroHome />
-      <YourPage2/>
+      {/* <YourPage2/> */}
+      <Carousels/>
 
 
       {/* <Tools/> */}
       {/* <Carousel /> */}
       <Popular />
 
-      {/* ถ้า pull ข้อมูลได้ */}
-      <Recommend />
 
-      {/* <Tools /> */}
+      {/* BUG ถ้า pull ข้อมูลได้ */}
+      {/* <Recommend /> */}
+
+
       {/* <Feature /> */}
       <News/>
       
       <Gif/>
-      {/* <News/> */}
+
 
 
       <ScrollToTop />
