@@ -4,8 +4,6 @@
 
 🌏 [Demo site](https://skillsync-web.vercel.app/)  
 
-![Screenshot]()
-
 ## Features
 
 - Fully responsive layout built with Tailwind CSS 3.0
@@ -39,10 +37,12 @@ npm install
 
 ```powershell
 npm run dev
-- localhost:3000
+
+localhost:3000
 
 ```powershell
 npx grafbase dev
-- localhost:4000
+
+localhost:4000
 
 Open your favorite text editor and start coding!
