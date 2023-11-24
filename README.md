@@ -25,12 +25,14 @@
 ### Quick start using Skillsync
 
 Follow instructions at the prompt to set up dependencies
+
 ```powershell
 npm i
+```
 
 # or
 
-```
+```powershell
 npm install
 
 ### Run server
