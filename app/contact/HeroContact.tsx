@@ -1,9 +1,12 @@
 import React from "react";
 import Link from "next/link";
+import FadeIn from "@/components/FadeIn";
 
-function HeroContact() {
+
+const HeroContact: React.FC = () => {
   return (
     <div>
+      <FadeIn>
       <div
         className="dshero min-h-100vh"
         style={{
@@ -16,7 +19,6 @@ function HeroContact() {
         <div className="dshero-overlay bg-opacity-60 py-20"></div>
         <div className="dshero-content text-center text-neutral-content">
           <div className="max-w-md my-10">
-            {/* <h1 className="mb-5  text-5xl font-bold">Contact Us</h1> */}
           </div>
           {/* Cards Dev */}
           <div className="container px-6 py-10 mx-auto">
@@ -31,6 +33,7 @@ function HeroContact() {
           </div>
         </div>
       </div>
+      </FadeIn>
     </div>
   );
 }

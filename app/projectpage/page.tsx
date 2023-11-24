@@ -6,7 +6,7 @@ import { fetchAllProjects } from "@/lib/actions";
 
 import type { Metadata } from "next";
 
-// import 'animate.css';
+
 
 export const metadata: Metadata = {
   title: "Projects | Skillsync",

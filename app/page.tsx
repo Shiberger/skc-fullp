@@ -37,10 +37,14 @@ function page() {
       {/* <Tools/> */}
       {/* <Carousel /> */}
       <Popular />
-      {/* <PoppularList/> */}
+
+      {/* ถ้า pull ข้อมูลได้ */}
       <Recommend />
+
       {/* <Tools /> */}
       {/* <Feature /> */}
+      <News/>
+      
       <Gif/>
       {/* <News/> */}
 

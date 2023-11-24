@@ -1,16 +1,18 @@
 import React from "react";
 import Link from "next/link";
+import FadeIn from "@/components/FadeIn";
 
-function HeroAbout2() {
+
+const HeroAbout2: React.FC = () => {
   return (
     <div>
-      <section className="sm:mt-6 lg:mt-8 mt-8 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="my-5 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28 flex gap-3 lg:flex-justify lg:flex flex-col lg:flex-row">
+      <FadeIn>
+      <section className="sm:mt-6 lg:mt-8 mt-3 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="my-5 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-10 lg:mt-10 lg:px-8 xl:mt-28 flex gap-3 lg:flex-justify lg:flex flex-col lg:flex-row">
           {/*   Image Section     */}
           <div className="lg:inset-y-0  md:order-first lg:right-0 lg:w-1/2 my-2">
             <img
               className="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full rounded-lg shadow-md hoverZoom"
-              // src="https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2850&q=80"
               src="https://images.unsplash.com/photo-1496171367470-9ed9a91ea931?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
               alt=""
             />
@@ -47,6 +49,7 @@ function HeroAbout2() {
           {/*   End of Image Section     */}
         </div>
       </section>
+      </FadeIn>
     </div>
   );
 }
