@@ -20,6 +20,7 @@ import PoppularList from "./home/PopularList";
 import News from "./home/News";
 
 
+
 export const metadata: Metadata = {
   title: "Home | Skillsync",
   description: "Home | Skillsync",
@@ -47,6 +48,7 @@ function page() {
       
       <Gif/>
       {/* <News/> */}
+
 
       <ScrollToTop />
     </div>

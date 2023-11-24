@@ -12,7 +12,7 @@ function Gif() {
               autoplay
               loop
               src="pointerboy.json"
-              style={{ height: "300px", width: "300px" }}
+              style={{ height: "350px", width: "350px" }}
             >
               <Controls
                 visible={false}
@@ -20,7 +20,7 @@ function Gif() {
               />
             </Player>
           </div>
-          <div className="lg:flex-grow md:w-1/2 lg:pl-30 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+          <div className="lg:flex-grow md:w-1/2 lg:pl-30 md:pl-10 md:mr-10 flex flex-col md:items-start md:text-left items-center text-center">
             <div className="dscollapse dscollapse-arrow bg-base-200 mb-3">
               <input type="radio" name="my-accordion-2" />
               <div className="dscollapse-title text-xl font-medium">

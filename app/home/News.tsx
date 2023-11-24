@@ -3,7 +3,9 @@ import React from "react";
 function News() {
   return (
     <div>
-      <div className="bg-white py-6 sm:py-8 lg:py-12">
+       <div className="container relative flex flex-col justify-between h-full max-w-6xl px-10 mx-auto xl:px-0">
+ 
+        <div className="bg-white py-6 sm:py-8 lg:py-12">
         <div className="mx-auto max-w-screen-2xl px-4 md:px-8">
           {/* text - start */}
           <div className="mb-10 md:mb-16">
@@ -113,6 +115,8 @@ function News() {
           </div>
         </div>
       </div>
+      </div>
+      
     </div>
   );
 }
