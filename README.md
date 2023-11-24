@@ -42,6 +42,8 @@ npm install
 npm run dev
 ```
 
+and run database graphQL (grafbase)
+
 ```powershell
 npx grafbase dev
 ```
