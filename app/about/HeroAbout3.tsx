@@ -5,7 +5,7 @@ function HeroAbout3() {
   return (
     <div>
       <section className="sm:mt-6 lg:mt-8 mt-8 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="my-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28 flex gap-3 lg:flex-justify lg:flex flex-col lg:flex-row">
+        <div className="mt-10 mb-10 xs:mb-[60px] mx-auto max-w-7xl px-4 sm:mb-10 sm:px-6 md:mt-16 md:mb-1 lg:mt-20 lg:px-8 xl:mt-28 flex gap-3 lg:flex-justify lg:flex flex-col lg:flex-row">
           <div className="sm:text-center lg:text-left">
             <h1 className="text-5xl tracking-tight font-bold text-gray-800 sm:text-5xl md:text-6xl py-3">
               <span className="block xl:inline">Why </span>
@@ -26,7 +26,7 @@ function HeroAbout3() {
                 src="https://my.spline.design/purple3diconscopy-d48ce58b2d9c452093cfffca390cc377/"
                 frameBorder={0}
                 width="100%"
-                height="310"
+                height="300px"
               />
             </div>
           </div>

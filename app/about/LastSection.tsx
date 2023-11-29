@@ -2,7 +2,7 @@ import React from "react";
 
 function LastSection() {
   return (
-    <div>
+    <div className="py-8 lg:py-[100px]">
       <div className="container relative flex flex-col justify-between h-full max-w-6xl px-10 mx-auto xl:px-0">
         <h2 className="mb-1 text-3xl font-extrabold leading-tight text-gray-900">
           News
