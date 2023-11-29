@@ -24,7 +24,7 @@ const ProjectActions = ({ projectId }: Props) => {
         try {
             await deleteProject(projectId, token);
             
-            router.push("/");
+            router.push("/projectpage");
         } catch (error) {
             console.error(error)
         } finally {
@@ -34,14 +34,14 @@ const ProjectActions = ({ projectId }: Props) => {
 
     return (
         <>
-            <Link href={`/edit-project/${projectId}`} className="flexCenter edit-action_btn">
-                <Image src="/pencile.svg" width={15} height={15} alt="edit" />
+            <Link href={`/edit-project/${projectId}`} className="flexCenter edit-action_btn btnNav hover:bg-slate-400">
+                <Image src="/pencile.svg" width={15} height={15} alt="edit"/>
             </Link>
 
             <button
                 type="button"
                 disabled={isDeleting}
-                className={`flexCenter delete-action_btn ${isDeleting ? "bg-gray" : "bg-primary-purple"}`}
+                className={`flexCenter delete-action_btn btnNav ${isDeleting ? "bg-gray" : "bg-primary-purple"}`}
                 onClick={handleDeleteProject}
             >
                 <Image src="/trash.svg" width={15} height={15} alt="delete" />

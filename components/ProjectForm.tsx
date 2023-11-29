@@ -69,13 +69,13 @@ const ProjectForm = ({ type, session, project }: Props) => {
             if (type === "create") {
                 await createNewProject(form, session?.user?.id, token)
 
-                router.push("/")
+                router.push("/projectpage")
             }
             
             if (type === "edit") {
                 await updateProject(form, project?.id as string, token)
 
-                router.push("/")
+                router.push("/projectpage")
             }
 
         } catch (error) {
@@ -127,7 +127,7 @@ const ProjectForm = ({ type, session, project }: Props) => {
 
             <FormField
                 type="url"
-                title="Website URL"
+                title="Website/Youtube/Work URL"
                 state={form.liveSiteUrl}
                 placeholder="http://cosci.swu.ac.th/"
                 setState={(value) => handleStateChange('liveSiteUrl', value)}
@@ -135,7 +135,7 @@ const ProjectForm = ({ type, session, project }: Props) => {
 
             <FormField
                 type="url"
-                title="GitHub URL"
+                title="GitHub URL/Others"
                 state={form.githubUrl}
                 placeholder="https://github.com/Shiberger"
                 setState={(value) => handleStateChange('githubUrl', value)}
