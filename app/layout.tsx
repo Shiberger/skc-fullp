@@ -2,13 +2,6 @@ import "./global.css";
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 import Navbar2 from "@/components/Navbar2";
-import { NavbarLinks } from "@/components/Navbar3";
-
-
-
-
-
-
 
 export const metadata = {
     title: "Skc-full",
