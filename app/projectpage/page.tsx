@@ -2,6 +2,7 @@ import { ProjectInterface } from "@/common.types";
 import Categories from "@/components/Categories";
 import LoadMore from "@/components/LoadMore";
 import ProjectCard from "@/components/ProjectCard";
+import ScrollToTop from "@/components/ScollToTop";
 import { fetchAllProjects } from "@/lib/actions";
 
 import type { Metadata } from "next";
@@ -61,6 +62,7 @@ const Home = async ({ searchParams: { category, endcursor } }: Props) => {
   return (
     <section className="flexStart flex-col paddings mb-16">
       <Categories />
+      <ScrollToTop />
 
       <section className="projects-grid">
         {projectsToDisplay.map(({ node }: { node: ProjectInterface }) => (
