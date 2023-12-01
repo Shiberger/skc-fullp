@@ -29,7 +29,7 @@ function NotFound() {
               </div>
             </div>
             <div>
-              <img src="https://i.ibb.co/G9DC8S0/404-2.png" />
+              <img src="https://i.ibb.co/G9DC8S0/404-2.png" alt="" />
             </div>
           </div>
         </div>

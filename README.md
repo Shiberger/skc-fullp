@@ -1,36 +1,51 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Skillsync
 
-## Getting Started
+เว็บไซต์ลงงานและสร้างโปรไฟล์สะสมผลงานบนเว็บไซต์ เพื่อส่งเสริมนิสิต cosci ให้มีรายได้เสริมและเป็นการแสดงศักยภาพของนิสิตคณะ cosci [Skillsync](https://skillsync-web.vercel.app/).
 
-First, run the development server:
+🌏 [Demo site](https://skillsync-web.vercel.app/)  
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## Features
+
+- Fully responsive layout built with Tailwind CSS 3.0
+- Login with Next-auth
+- Create Project
+- Edit Project
+- Project Page ( can upload + edit )
+- Flexible with any content types
+- Ability to link to posts on third-party websites
+- SVG icons from FontAwesome 6
+- HTML and Emoji support in articles 🎉
+- SEO friendly with links for sharing to social media
+- Fathom Analytics and Google Analytics support
+- Advanced customisation using simple Tailwind colour definitions and styles
+- Fully documented with regular updates
+
+---
+
+### Quick start using Skillsync
+
+Follow instructions at the prompt to set up dependencies
+
+```powershell
+npm i
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+# or
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```powershell
+npm install
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Run server
 
-## Learn More
+```powershell
+npm run dev
+```
 
-To learn more about Next.js, take a look at the following resources:
+and run database graphQL (grafbase)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```powershell
+npx grafbase dev
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Open your favorite text editor and start coding!
