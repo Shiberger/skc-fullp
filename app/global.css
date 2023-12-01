@@ -1,4 +1,3 @@
-/* @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"); */
 @import url("https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 @tailwind base;
@@ -43,6 +42,10 @@ body {
   @apply transition-transform duration-200 ease-in-out hover:scale-[1.03];
 }
 
+.btnZoom {
+  @apply transition-transform duration-200 ease-in-out hover:scale-[1.2];
+}
+
 .flexCenter {
   @apply flex justify-center items-center;
 }
@@ -74,7 +77,7 @@ body {
 }
 
 .modal-head-text {
-  @apply md:text-5xl text-3xl font-extrabold text-left max-w-5xl w-full mt-10;
+  @apply md:text-5xl text-3xl font-extrabold text-left max-w-5xl w-full mt-10 transition duration-300 ease-in-out;
 }
 
 .no-result-text {
@@ -88,6 +91,11 @@ body {
 
 .user-info {
   @apply flex flex-wrap whitespace-nowrap text-sm font-normal gap-2 w-full;
+}
+
+/* Navbar */
+.NavActive{
+  @apply text-black
 }
 
 /* Home */
@@ -150,7 +158,7 @@ body {
 
 /* Modal */
 .modal {
-  @apply fixed z-10 left-0 right-0 top-0 bottom-0 mx-auto bg-black/80;
+  @apply fixed z-50 left-0 right-0 top-0 bottom-0 mx-auto bg-black/80;
 }
 
 .modal_wrapper {
@@ -192,4 +200,49 @@ body {
 /* Profile Projects */
 .profile_projects {
   @apply grid xl:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-8 mt-5;
+}
+
+/* 
+Props */
+.picUpDown {
+  animation: updown 3s linear infinite;
+}
+
+@keyframes updown {
+  0% {
+    transform: translateY(-20px);
+  }
+  50% {
+    transform: translateY(20px);
+  }
+  100% {
+    transform: translateY(-20px);
+  }
+}
+.popular img:hover {
+  animation: updown2 2s linear infinite;
+}
+
+@keyframes updown2 {
+  0% {
+    transform: translateY(-10px);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+.hoverZoom {
+  @apply transition duration-300 ease-in-out hover:scale-105;
+}
+
+.card-zoom-image {
+  @apply absolute w-full h-full transition-all duration-500 ease-in-out transform bg-center bg-cover;
+}
+
+.dscollapse-open {
+  @apply bg-slate-400
 }

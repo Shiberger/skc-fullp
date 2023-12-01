@@ -1,21 +1,45 @@
+"use client";
 import React from "react";
 import Link from "next/link";
+import { Player, Controls } from "@lottiefiles/react-lottie-player";
 
 function Popular() {
   return (
     <div>
-      <div className="text-center p-2 mt-10">
+      <div className="text-center p-2 mt-3">
         <div className=" flex justify-center">
-          <img className="relative w-10 pb-5" src="/fire.svg" alt="" />
-          <h1 className="font-bold text-4xl mb-1 ">Poppular</h1>
-          <img className="relative w-10  pb-5" src="/fire.svg" alt="" />
+          <Player
+            autoplay
+            loop
+            src="firepop.json"
+            className="relative mb-9"
+            style={{ height: "80px", width: "80px" }}
+          >
+            <Controls
+              visible={false}
+              buttons={["play", "repeat", "frame", "debug"]}
+            />
+          </Player>
+          <h1 className="font-bold text-4xl mt-6">Popular</h1>
+          <Player
+            autoplay
+            loop
+            src="firepop.json"
+            className="relative mb-9"
+            style={{ height: "80px", width: "80px" }}
+          >
+            <Controls
+              visible={false}
+              buttons={["play", "repeat", "frame", "debug"]}
+            />
+          </Player>
         </div>
         <h1 className="text-2xl text-slate-400 ">
           มาดูกันว่าอะไรกำลังมาแรงในช่วงนี้
         </h1>
       </div>
 
-      {/*  */}
+      {/* List */}
       <div className="p-1 flex flex-wrap items-center justify-center">
         {/* card 1 */}
         <div className="flex-shrink-0 m-6 relative overflow-hidden bg-purple-500 rounded-lg max-w-xs shadow-lg group">
@@ -43,7 +67,7 @@ function Popular() {
               fill="white"
             />
           </svg>
-          <div className="relative pt-10 px-10 flex items-center justify-center group-hover:scale-110 transition-transform">
+          <div className="popular relative pt-10 px-10 flex items-center justify-center group-hover:scale-110 transition-transform">
             <div
               className="block absolute w-48 h-48 bottom-0 left-0 -mb-24 ml-3"
               style={{
@@ -55,10 +79,10 @@ function Popular() {
             <img className="relative w-40" src="/ux.svg" alt="" />
           </div>
           <div className="relative text-white px-6 pb-6 mt-6">
-            <span className="block opacity-75 -mb-1">Indoor</span>
+            <span className="block opacity-75 -mb-1">Develop</span>
             <div className="flex justify-between">
               <span className="block font-semibold text-xl">UX/UI</span>
-              <Link href={"/projectpage?category=UI/UX"}>
+              <Link href={"/projectpage?category=UX/UI"}>
                 <span className=" bg-white rounded-full text-orange-500 text-xs font-bold px-5 py-2 leading-none flex items-center shadow-md btnNav ">
                   Go
                 </span>
@@ -93,7 +117,7 @@ function Popular() {
               fill="white"
             />
           </svg>
-          <div className="relative pt-10 px-10 flex items-center justify-center group-hover:scale-110 transition-transform">
+          <div className="popular relative pt-10 px-10 flex items-center justify-center group-hover:scale-110 transition-transform">
             <div
               className="block absolute w-48 h-48 bottom-0 left-0 -mb-24 ml-3"
               style={{
@@ -105,11 +129,13 @@ function Popular() {
             <img className="relative w-40" src="/style.svg" alt="" />
           </div>
           <div className="relative text-white px-6 pb-6 mt-6">
-            <span className="block opacity-75 -mb-1">Indoor</span>
+            <span className="block opacity-75 -mb-1">Creative</span>
             <div className="flex justify-between">
-              <span className="block font-semibold text-xl">Front-End</span>
-              <Link href={"/projectpage?category=Frontend"}>
-                <span className=" bg-white rounded-full text-orange-500 text-xs font-bold px-5 py-2 leading-none flex items-center shadow-md btnNav ">
+              <span className="block font-semibold text-lg">
+                Graphic Design
+              </span>
+              <Link href={"/projectpage?category=Graphic%20Design"}>
+                <span className=" bg-white rounded-full text-purple-500 text-xs font-bold px-4 py-2 leading-none flex items-center shadow-md btnNav ">
                   Go
                 </span>
               </Link>
@@ -143,7 +169,7 @@ function Popular() {
               fill="white"
             />
           </svg>
-          <div className="relative pt-10 px-10 flex items-center justify-center group-hover:scale-110 transition-transform">
+          <div className="popular relative pt-10 px-10 flex items-center justify-center group-hover:scale-110 transition-transform">
             <div
               className="block absolute w-48 h-48 bottom-0 left-0 -mb-24 ml-3"
               style={{
@@ -155,7 +181,7 @@ function Popular() {
             <img className="relative w-40" src="/code.svg" alt="" />
           </div>
           <div className="relative text-white px-6 pb-6 mt-6">
-            <span className="block opacity-75 -mb-1">Indoor</span>
+            <span className="block opacity-75 -mb-1">Develop</span>
             <div className="flex justify-between">
               <span className="block font-semibold text-xl">Full-Stack</span>
               <Link href={"/projectpage?category=Full-Stack"}>
@@ -193,7 +219,7 @@ function Popular() {
               fill="white"
             />
           </svg>
-          <div className="relative pt-10 px-10 flex items-center justify-center group-hover:scale-110 transition-transform">
+          <div className="popular relative pt-10 px-10 flex items-center justify-center group-hover:scale-110 transition-transform">
             <div
               className="block absolute w-48 h-48 bottom-0 left-0 -mb-24 ml-3"
               style={{
@@ -202,14 +228,14 @@ function Popular() {
                 opacity: "0.2",
               }}
             ></div>
-            <img className="relative w-40" src="/cart.svg" alt="" />
+            <img className="relative w-40" src="/photo.svg" alt="" />
           </div>
           <div className="relative text-white px-6 pb-6 mt-6">
-            <span className="block opacity-75 -mb-1">Indoor</span>
+            <span className="block opacity-75 -mb-1">Creative</span>
             <div className="flex justify-between">
-              <span className="block font-semibold text-xl">E-Commerce</span>
-              <Link href={"/projectpage?category=E-commerce"}>
-                <span className=" bg-white rounded-full text-orange-500 text-xs font-bold px-5 py-2 leading-none flex items-center shadow-md btnNav ">
+              <span className="block font-semibold text-xl">Photography</span>
+              <Link href={"/projectpage?category=Photography"}>
+                <span className=" bg-white rounded-full text-purple-500 text-xs font-bold px-5 py-2 leading-none flex items-center shadow-md btnNav ">
                   Go
                 </span>
               </Link>

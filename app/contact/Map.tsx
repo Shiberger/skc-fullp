@@ -6,8 +6,13 @@ import Button from "@/components/Button";
 function Map() {
   return (
     <>
+    
+    <div className="dsdivider dsdivider-neutral mx-10 text-center">
+      <div className="text-slate-500">Map</div>
+    </div>
       <section className="text-gray-600 body-font relative">
-        <div className="container px-5 py-24 mx-auto flex sm:flex-nowrap flex-wrap">
+
+        <div className="container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap">
           <div className="lg:w-2/3 md:w-1/2 bg-gray-300 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
             <iframe
               width="100%"
@@ -74,7 +79,7 @@ function Map() {
                 type="email"
                 id="email"
                 name="email"
-                className="w-full bg-white rounded border  border-slate-300 focus:border-black-500 focus:ring-2 focus:ring-slate-300 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                className="w-full bg-white rounded border  border-slate-300 focus:border-black focus:ring-2 focus:ring-slate-300 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
               />
             </div>
             <div className="relative mb-4">
@@ -87,7 +92,7 @@ function Map() {
               <textarea
                 id="message"
                 name="message"
-                className="w-full bg-white rounded border border-slate-300 focus:border-black-500 focus:ring-2 focus:ring-slate-300 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
+                className="w-full bg-white rounded border border-slate-300 focus:border-black focus:ring-2 focus:ring-slate-300 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
                 defaultValue={""}
               />
             </div>
@@ -98,13 +103,7 @@ function Map() {
             </p>
           </div>
         </div>
-        <Script 
-        type="module"
-        src="">
-          <script src=""></script>
-        </Script>
-       <iframe src="https://my.spline.design/purple3diconscopy-d48ce58b2d9c452093cfffca390cc377/" frameBorder={0} width="100%" height="100%" />
-
+   
       </section>
     </>
   );

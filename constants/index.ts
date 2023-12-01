@@ -1,11 +1,36 @@
 export const NavLinks = [
-    { href: '/home', key: 'Home', text: 'Home'},
+    { href: '/', key: 'Home', text: 'Home'},
     { href: '/about', key: 'About Us', text: 'About Us' },
     { href: '/projectpage', key: 'Find Projects', text: 'Find Projects' },
-    // { href: '/', key: 'Learn Development', text: 'Learn Development' },
-    // { href: '/', key: 'Career Advancement', text: 'Career Advancement' },
-    // { href: '/', key: 'Hire Developers', text: 'Hire Developers' },
     { href: '/contact', key: 'Contact Us', text: 'Contact Us'}
+
+];
+
+export const CategoryLinks1 = [
+    { href: '/projectpage?category=Frontend', key: 'Frontend', text: 'Frontend'},
+    { href: '/projectpage?category=Backend', key: 'Backend', text: 'Backend'},
+    { href: '/projectpage?category=Full-Stack', key: 'Full-Stack', text: 'Full-Stack'},
+    { href: '/projectpage?category=Mobile', key: 'Mobile', text: 'Mobile'},
+    { href: '/projectpage?category=UX/UI', key: 'UX/UI', text: 'UX/UI'},
+    { href: '/projectpage?category=Game%20Dev', key: 'Game Dev', text: 'Game Dev' },
+    { href: '/projectpage?category=Graphic%20Design', key: 'Graphic Design', text: 'Graphic Design' },
+
+];
+
+export const CategoryLinks2 = [
+    { href: '/projectpage?category=Photography', key: 'Photography', text: 'Photography'},
+    { href: '/projectpage?category=Video%20Editing', key: 'Video Editing', text: 'Video Editing'},
+    { href: '/projectpage?category=Content%20Writing', key: 'Content Writing', text: 'Content Writing'},
+    { href: '/projectpage?category=Marketing', key: 'Marketing', text: 'Marketing'},
+    { href: '/projectpage?category=E-commerce', key: 'E-commerce', text: 'E-commerce'},
+    { href: '/projectpage?category=Chatbots', key: 'Chatbots', text: 'Chatbots'}
+
+];
+
+export const FAQtext = [
+    { title: 'question1', text: 'qwertyuiop[]zxcvbnm,.'},
+    { title: 'ฉันสามารถลงงาน', text: 'Photography'},
+    { title: 'ฉันสามารถลงงาน', text: 'Photography'},
 
 ];
 
@@ -14,13 +39,13 @@ export const categoryFilters = [
     "Backend",
     "Full-Stack",
     "Mobile",
-    "UI/UX",
+    "UX/UI",
     "Game Dev",
-    "DevOps",
-    "Data Science",
-    "Machine Learning",
-    "Cybersecurity",
-    "Blockchain",
+    "Graphic Design",
+    "Photography",
+    "Video Editing",
+    "Content Writing",
+    "Marketing",
     "E-commerce",
     "Chatbots"
 ]

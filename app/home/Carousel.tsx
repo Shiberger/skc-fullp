@@ -1,68 +1,77 @@
-import React from "react";
+"use client";
 
-function Carousel() {
+import React, { useRef, useState } from "react";
+// Import Swiper React components
+import { Swiper, SwiperSlide } from "swiper/react";
+
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
+
+// import './styles.css';
+import "../style/swiper.css";
+
+// import required modules
+import { Autoplay, Pagination, Navigation } from "swiper/modules";
+import SlideSwiper from "@/components/SlideSwiper";
+
+export default function App() {
   return (
-    <div>
-      <div className="dscarousel w-full">
-        <div id="slide1" className="dscarousel-item relative w-full">
+    <div className="mx-10 py-10">
+      <Swiper
+        slidesPerView={1}
+        spaceBetween={30}
+        // centeredSlides={true}
+        autoplay={{
+          delay: 3000,
+          disableOnInteraction: false,
+        }}
+        pagination={{
+          clickable: true,
+        }}
+        navigation={true}
+        modules={[Autoplay, Pagination, Navigation]}
+        className="mySwiper px-3 pb-10 drop-shadow-md "
+      >
+        <SwiperSlide>
           <img
-            src="/profile-post.png"
-            className="w-full"
+            src="/cosci7.jpeg"
+            alt="Home Img"
+            className="mx-auto rounded-lg h-[200px] w-[400px] object-cover sm:h-[500px] md:h-[600px] sm:w-[1200px] align-items-center"
           />
-          <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-            <a href="#slide4" className="btn btn-circle">
-              ❮
-            </a>
-            <a href="#slide2" className="btn btn-circle">
-              ❯
-            </a>
-          </div>
-        </div>
-        <div id="slide2" className="dscarousel-item relative w-full">
+        </SwiperSlide>
+        <SwiperSlide>
           <img
-            src="/workplace1.jpg"
-            className="w-full"
+            src="/cosci6.jpeg"
+            alt="Home Img"
+            className="mx-auto rounded-lg h-[200px] w-[400px] object-cover sm:h-[500px] md:h-[600px] sm:w-[1200px] align-items-center"
           />
-          <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-            <a href="#slide1" className="btn btn-circle">
-              ❮
-            </a>
-            <a href="#slide3" className="btn btn-circle">
-              ❯
-            </a>
-          </div>
-        </div>
-        <div id="slide3" className="dscarousel-item relative w-full">
+        </SwiperSlide>
+        <SwiperSlide>
           <img
-            src="/images/stock/photo-1414694762283-acccc27bca85.jpg"
-            className="w-full"
+            src="/cosci4.jpeg"
+            alt="Home Img"
+            className="mx-auto rounded-lg h-[200px] w-[400px] object-cover sm:h-[500px] md:h-[600px] sm:w-[1200px] align-items-center"
           />
-          <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-            <a href="#slide2" className="btn btn-circle">
-              ❮
-            </a>
-            <a href="#slide4" className="btn btn-circle">
-              ❯
-            </a>
-          </div>
-        </div>
-        <div id="slide4" className="dscarousel-item relative w-full">
+        </SwiperSlide>
+        <SwiperSlide>
           <img
-            src="/images/stock/photo-1665553365602-b2fb8e5d1707.jpg"
-            className="w-full"
+            src="/cosci5.jpeg"
+            alt="Home Img"
+            className="mx-auto rounded-lg h-[200px] w-[400px] object-cover sm:h-[500px] md:h-[600px] sm:w-[1200px] align-items-center"
           />
-          <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-            <a href="#slide3" className="btn btn-circle">
-              ❮
-            </a>
-            <a href="#slide1" className="btn btn-circle">
-              ❯
-            </a>
-          </div>
-        </div>
-      </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <img
+            src="/cosci8.jpeg"
+            alt="Home Img"
+            className="mx-auto rounded-lg h-[200px] w-[400px] object-cover sm:h-[500px] md:h-[600px] sm:w-[1200px] align-items-center"
+          />
+        </SwiperSlide>
+      
+      
+      </Swiper>
     </div>
   );
 }
-
-export default Carousel;
